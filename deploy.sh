@@ -9,7 +9,7 @@ cd dist
 git init
 git add -A
 git commit -m 'New Deployment'
-git push -f git@github.com:RaphDUC/portfolio-first-iteration.git master:gh-pages
+git push -f git@github.com:RaphDUC/portfolio-first-iteration.git main:gh-pages
 
 cd -
 
