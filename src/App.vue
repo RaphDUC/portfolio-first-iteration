@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     
-    <link rel="stylesheet" href="@/assets/projects/projects.css" type="text/css">
-
     <Header />
     <div class="main">
       <transition name="fade" mode="out-in">
@@ -23,15 +21,16 @@ export default Vue.extend({
   name: 'App',
   components: {
     Header, Footer
+  },
+  mounted() {
+    // Preload heavy images or gifs that are used in other pages
+    Helpers.preloadImages([
+      "img/projects/project-1-icon.png",
+      "img/projects/project-2-icon.png",
+      "img/projects/project-3-icon.png"
+    ]);
   }
 });
-
-// Preload heavy images or gifs that are used in other pages
-Helpers.preloadImages([
-  "img/projects/project-1-icon.png",
-  "img/projects/project-2-icon.png",
-  "img/projects/project-3-icon.png"
-]);
 
 </script>
 

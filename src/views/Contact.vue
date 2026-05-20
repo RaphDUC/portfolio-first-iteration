@@ -1,9 +1,9 @@
 <template>
   <div>
     
-    <h1>Let's get in touch</h1>
+    <h1>{{ $t('contact_title') }}</h1>
 
-    <div style="margin-bottom:40px;">Feel free to contact me about any opportunity !</div>
+    <div style="margin-bottom:40px;">{{ $t('contact_subtitle') }}</div>
 
     <ul>
       <li>

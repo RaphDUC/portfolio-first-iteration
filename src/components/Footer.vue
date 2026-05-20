@@ -1,8 +1,7 @@
 <template>
   <div class="footer">
-    
-    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">schouffy</a> made this portfolio template !</div>
-    <div class="right">Reach me at <a href="mailto:rd.pierrepoivre@gmail.com">rd.pierrepoivre@gmail.com</a> or <router-link to="/contact">through here</router-link></div>
+    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="_blank">schouffy</a> {{ $t('footer_credit') }}</div>
+    <div class="right">{{ $t('footer_reach') }} <a href="mailto:rd.pierrepoivre@gmail.com">rd.pierrepoivre@gmail.com</a> {{ $t('footer_or') }} <router-link to="/contact">{{ $t('footer_through') }}</router-link></div>
   </div>
 </template>
 

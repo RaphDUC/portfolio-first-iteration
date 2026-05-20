@@ -51,9 +51,6 @@ export default Vue.extend({
   },
   methods: {
     showDetails: function (item: ProjectData) {
-      // if (event) {
-      //   alert(event.target);
-      // }
       this.popupTitle = item.name;
       this.popupColor = item.accentColor;
       this.popupContent = item.htmlDescription;

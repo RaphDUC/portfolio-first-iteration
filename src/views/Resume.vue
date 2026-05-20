@@ -1,126 +1,142 @@
 <template>
   <div>
-    <h1>Resume</h1>
+    <h1>{{ $t('resume_title') }}</h1>
 
     <div class="paragraph">
-      I'm a game dev student, currently learning at the UQAC (Université du Québec A Chicoutimi).
-      <br />Holding a DUT Informatique (French equivalent of 2-Year Technical University Diploma of computing) from the IUT 2 of Grenoble, I'm now completing a
-      <br />Bachelor's degree in Video Game Development (Baccalauréat en Développement de Jeu Vidéo).
-      <br />
-      <br />I have used a range of languages, operating systems and development tools, but also game engines and artistic softwares to become more polyvalent.
-      <br />All of these projects, especially those in teamwork, taught me managing and organisation methods.
-      <br />
-      <br />Besides development and game making, I'm passionate about books, mangas, music, role playing games, hiking and traveling.
+      <div v-if="$lang === 'fr'">
+        Étudiant en développement de jeu vidéo, actuellement en <strong>Master en Informatique (spécialité Jeux Vidéo) à l'UQAC</strong> (Université du Québec à Chicoutimi) et à la recherche d'un stage de 675 heures à partir de septembre 2026.
+        <br />Titulaire d'un DUT Informatique (diplôme universitaire de technologie en Informatique) de l'IUT 2 de Grenoble, et d'un Baccalauréat en Développement de Jeu Vidéo.
+        <br />
+        <br />J'ai utilisé un large éventail de langages, systèmes d'exploitation et outils de développement pour devenir plus polyvalent. Je code principalement en C++, C#, C, Python, HTML/CSS, JS et Vue.js, et j'ai appris Rust et HLSL cette année. Je développe pour toutes les plateformes : PC, mobile et VR.
+        <br />Je travaille avec Unreal Engine, Unity et Godot, et j'ai récemment appris la création de moteurs personnalisés avec openFrameworks et Vulkan.
+        <br />Côté artistique, je fais de la modélisation, du texturage et de l'animation 3D au quotidien depuis fin 2025.
+        <br />Tous ces projets, notamment ceux en équipe, m'ont appris des compétences en gestion et en organisation.
+        <br />
+        <br />En dehors du développement et de la création de jeux, je suis passionné par les livres, les mangas, la musique, les jeux de rôle, la randonnée et les voyages.
+      </div>
+      <div v-else>
+        I'm a game dev student, currently completing a <strong>Master's degree in Computer Science (Video Games) at UQAC</strong> (Université du Québec à Chicoutimi) and looking for a 675-hour internship starting in September 2026.
+        <br />Holding a DUT Informatique (French equivalent of a 2-Year Technical University Diploma in Computer Science) from the IUT 2 of Grenoble, and a Bachelor's degree in Video Game Development.
+        <br />
+        <br />I have used a range of languages, operating systems, and development tools to become more versatile. I mainly code in C++, C#, C, Python, HTML/CSS, JS, and Vue.js, and learned Rust and HLSL this year. I code for all platforms, including PC, mobile, and VR.
+        <br />I work with Unreal Engine, Unity, and Godot, and recently learned custom engine creation with openFrameworks and Vulkan.
+        <br />On the artistic side, I have been modeling, texturing, and animating in 3D daily since late 2025.
+        <br />All of these projects, especially those in teamwork, taught me management and organizational skills.
+        <br />
+        <br />Besides development and game making, I'm passionate about books, manga, music, role-playing games, hiking, and traveling.
+      </div>
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> {{ $t('resume_download_en') }}</a>
+        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> {{ $t('resume_download_fr') }}</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/resume-photo.png" alt="Photo de Raphaël D." />
     </div>
 
     <div style="clear:both"></div>
 
     <div class="full-content">
-      <h2>Interships</h2>
+      <h2>{{ $t('resume_internships') }}</h2>
 
       <h3>Avalon Digital</h3>
-      <h4>April-June 2022</h4>
+      <h4>{{ $lang === 'fr' ? 'Avril–Juin 2022' : 'April–June 2022' }}</h4>
 
-      <div>C# development in Unity on the game <a href="https://store.steampowered.com/app/1268420/Britannia/" target="_blank">Britannia</a>.</div>
-      <div>Implementation of localization asset I2Localization.</div>
-      <div>Automation of game's translation.</div>
-      <div>Introduction to Blender : creation of 3D pawns.</div>
-      <div>Addition of effects and animations, with necessary script.</div>
+      <div>{{ $t('internship_britannia_dev') }} <a href="https://store.steampowered.com/app/1268420/Britannia/" target="_blank">Britannia</a>.</div>
+      <div>{{ $t('internship_britannia_i2l') }}</div>
+      <div>{{ $t('internship_britannia_auto') }}</div>
+      <div>{{ $t('internship_britannia_blender') }}</div>
+      <div>{{ $t('internship_britannia_fx') }}</div>
 
-      <h2>Skills</h2>
+      <h2>{{ $t('resume_skills') }}</h2>
 
       <div class="skill-set">
-        <h3>Languages/Frameworks</h3>
-        <div>Object-Oriented Programming : C++, C#, Python, Java, Ada</div>
-        <div>Web Programming : HTML, CSS, PHP, JavaScript, jQuery,</div>
-        <div>TypeScript (Angular, View.js)</div>
-        <div>Database : SQL</div>
+        <h3>{{ $t('resume_skill_lang') }}</h3>
+        <div>{{ $lang === 'fr' ? 'Logiciel / POO :' : 'Software / OOP:' }} C++, C#, C, Rust, Python, Java, Ada</div>
+        <div>Web: HTML/CSS, JavaScript, TypeScript, Vue.js, Angular, PHP</div>
+        <div>{{ $lang === 'fr' ? 'Graphismes & Shaders :' : 'Graphics & Shaders:' }} HLSL, Vulkan, openFrameworks</div>
+        <div>{{ $lang === 'fr' ? 'Base de données :' : 'Database:' }} SQL</div>
       </div>
 
       <div class="skill-set">
-        <h3>Gamedev</h3>
-        <div>Unreal, Unity and Godot Gameplay Development</div>
-        <div>Level Design</div>
-        <div>Gameloop Conception</div>
-        <div>Signs and Feedback Conception</div>
-        <div>3D/2D Art</div>
-        <div>Basics on Online and Multiplayer Functionalities</div>
-        <div>Basics on Animations</div>
+        <h3>{{ $t('resume_skill_gamedev') }}</h3>
+        <div>{{ $lang === 'fr' ? 'Gameplay :' : 'Gameplay Dev:' }} Unreal, Unity, Godot (PC, Mobile, VR)</div>
+        <div>{{ $lang === 'fr' ? 'Architecture moteur :' : 'Engine Architecture:' }} {{ $lang === 'fr' ? 'Création de moteur personnalisé' : 'Custom engine creation' }}</div>
+        <div>{{ $lang === 'fr' ? 'Game & Level Design :' : 'Game & Level Design:' }} {{ $lang === 'fr' ? 'Boucle de jeu, signaux, retours joueur' : 'Core game loop, signs, feedback' }}</div>
+        <div>{{ $lang === 'fr' ? 'Art 3D :' : '3D Art:' }} {{ $lang === 'fr' ? 'Modélisation, Texturage PBR, Animation' : 'Modeling, PBR Texturing, Animation' }}</div>
+        <div>{{ $lang === 'fr' ? 'Art 2D & Montage vidéo' : '2D Art & Video Editing' }}</div>
+        <div>{{ $lang === 'fr' ? 'Fonctionnalités en ligne et multijoueur' : 'Online and Multiplayer Functionalities' }}</div>
       </div>
 
       <div class="skill-set">
-        <h3>Softwares</h3>
-        <div>Unreal Engine, Unity, Godot</div>
-        <div>Visual Paradigm</div>
-        <div>Blender, Maya</div>
-        <div>Clip Studio Paint, Krita</div>
-        <div>GIMP, Photoshop, Camtasia</div>
-        <div>Twine</div>
-        <div>MS Office</div>
-
+        <h3>{{ $t('resume_skill_tools') }}</h3>
+        <div>{{ $lang === 'fr' ? 'Moteurs :' : 'Engines:' }} Unreal Engine, Unity, Godot</div>
+        <div>{{ $lang === 'fr' ? 'IDEs :' : 'IDEs:' }} Visual Studio, VS Code, Rider, RustRover</div>
+        <div>{{ $lang === 'fr' ? '3D & Texturage :' : '3D & Texturing:' }} Blender, Maya, Substance Painter</div>
+        <div>{{ $lang === 'fr' ? 'Art 2D & Vidéo :' : '2D Art & Video:' }} Photoshop, GIMP, Clip Studio Paint, Krita, Camtasia</div>
+        <div>{{ $lang === 'fr' ? 'Narration & Design :' : 'Narrative & Design:' }} Twine, Obsidian, Visual Paradigm</div>
       </div>
 
       <div style="clear:both" />
 
-      <h2>Education</h2>
+      <h2>{{ $t('resume_education') }}</h2>
 
-      <h3>Université du Québec A Chicoutimi (Chicoutimi, Canada) - 2022-2023</h3>
-      <h4>Double degree with the UGA (Université Grenoble Alpes) (Grenoble, France) : </h4>
-      <h4>Bachelor's Degree in Game Development</h4>
-      <h4>DUETI (University Diploma in International Technology Education) in Computing Science</h4>
-      <div>Specialty in Game Design and Development</div>
+      <h3>Université du Québec à Chicoutimi (Chicoutimi, Canada) - 2025-2027</h3>
+      <h4>{{ $lang === 'fr' ? 'Maîtrise en Informatique' : "Master's degree in Computer Science (Maîtrise en Informatique)" }}</h4>
+      <div>{{ $lang === 'fr' ? 'Spécialité Jeux Vidéo' : 'Specialty in Video Games' }}</div>
+
+      <h3>HEAJ - Haute École Albert Jacquard (Namur, Belgium) - 2023-2025</h3>
+      <h4>{{ $lang === 'fr' ? 'Double diplôme avec NAD-UQAC (Montréal, Canada) en deuxième année (2024-2025) :' : 'Double degree with NAD-UQAC (Montréal, Canada) during the second year (2024-2025):' }}</h4>
+      <h4>{{ $lang === 'fr' ? 'Master en Jeu Vidéo (Spécialité Game Design)' : "Master's degree in Video Games (Specialty in Game Design)" }}</h4>
+      <h4>{{ $lang === 'fr' ? 'DESS (Diplôme d\'Études Supérieures Spécialisées) en Conception de Jeu Vidéo Narratif' : 'Specialized Graduate Diploma (DESS) in Narrative Video Game Design' }}</h4>
+
+      <h3>Université du Québec à Chicoutimi (Chicoutimi, Canada) - 2022-2023</h3>
+      <h4>{{ $lang === 'fr' ? 'Double diplôme avec l\'UGA (Université Grenoble Alpes) (Grenoble, France) :' : 'Double degree with UGA (Université Grenoble Alpes) (Grenoble, France):' }}</h4>
+      <h4>{{ $lang === 'fr' ? 'Baccalauréat en Développement de Jeu Vidéo' : "Bachelor's Degree in Game Development" }}</h4>
+      <h4>{{ $lang === 'fr' ? 'DUETI (Diplôme Universitaire d\'Études Technologiques Internationales) en Informatique' : 'DUETI (University Diploma in International Technology Education) in Computer Science' }}</h4>
+      <div>{{ $lang === 'fr' ? 'Spécialité Game Design et Développement' : 'Specialty in Game Design and Development' }}</div>
 
       <h3>IUT 2 de Grenoble (Grenoble, France) - 2020-2022</h3>
-      <h4>Two Year higher education in Computer Science</h4>
-      <div>Specialty in Software Development</div>
+      <h4>{{ $lang === 'fr' ? 'DUT Informatique' : 'Two-Year University Degree in Computer Science (DUT Informatique)' }}</h4>
+      <div>{{ $lang === 'fr' ? 'Spécialité Développement de logiciels' : 'Specialty in Software Development' }}</div>
 
       <h3>Lycée Pierre Poivre (Saint-Joseph, La Réunion, France) - 2019</h3>
-      <h4>Baccalaureate S</h4>
-      <div>Specialty in Mathematics, Spanish European section</div>
+      <h4>{{ $lang === 'fr' ? 'Baccalauréat Scientifique' : 'High School Diploma in Science (Baccalauréat Scientifique)' }}</h4>
+      <div>{{ $lang === 'fr' ? 'Spécialité Mathématiques, Section Européenne Espagnol' : 'Specialty in Mathematics, Spanish European Section' }}</div>
 
-      <h2>Languages</h2>
+      <h2>{{ $t('resume_languages') }}</h2>
 
       <h3>English 🇬🇧</h3>
-      <div>C1 Level. I travelled in some countries of the Anglosphere. I daily speak English with technical vocabulary, mostly online.</div>
+      <div>{{ $t('lang_en_level') }}</div>
 
       <h3>Spanish 🇪🇸</h3>
-      <div>B2 Level. I attended an European Section during my High School Years.</div>
+      <div>{{ $t('lang_es_level') }}</div>
 
       <h3>Japanese 🇯🇵</h3>
-      <div>Basic common sentences, I've just started to learn with Duolingo and a "For Dummies" book.</div>
+      <div>{{ $t('lang_jp_level') }}</div>
 
       <h3>French 🇫🇷</h3>
-      <div>This is my mother tongue.</div>
+      <div>{{ $t('lang_fr_level') }}</div>
 
       <h3>Reunionese Creole 🇷🇪</h3>
-      <div>Ca lé aussi ma langue maternelle, oté ! ("This is also my mother tongue !")</div>
+      <div>{{ $t('lang_rc_level') }}</div>
 
-
-      <h2>Hobbies</h2>
+      <h2>{{ $t('resume_hobbies') }}</h2>
       <div>
-        <h3>I ❤️ Video Games</h3>
-        <div>Not only I enjoy playing most of them, but also talking, debating about them, studying their gameplay and artstic features...</div>
-        <div>From unknown indies to AAA, I would like to expand my curiosity. I slightly have a crush on immersive sims, contemplative games and fast FPS.</div>
+        <h3>{{ $t('hobby_games_title') }}</h3>
+        <div>{{ $t('hobby_games_1') }}</div>
+        <div>{{ $t('hobby_games_2') }}</div>
 
+        <h3>{{ $t('hobby_drama_title') }}</h3>
+        <div>{{ $t('hobby_drama') }}</div>
 
-        <h3>I 🧡 Drama</h3>
-        <div>I really like acting and playing as characters. I participated in Komidi Festival in 2016 and played in "Big One" by Reunionese actor Sergio Grondin.</div>
+        <h3>{{ $t('hobby_sports_title') }}</h3>
+        <div>{{ $t('hobby_sports') }}</div>
 
-        <h3>I 💛 Sports</h3>
-        <div>I often go out during my breaks. I mostly like hiking, basket-ball, swimming and kung-fu.</div>
-
-        <h3>I 💚 Trips</h3>
-        <div>Australia and Ireland (with BEST association), South Africa, Mauritius, Seychelles.</div>
-
+        <h3>{{ $t('hobby_trips_title') }}</h3>
+        <div>{{ $t('hobby_trips') }}</div>
       </div>
     </div>
   </div>
@@ -128,13 +144,9 @@
 
 <script lang="ts">
 import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
 
 export default Vue.extend({
   name: "Resume",
-  components: {
-    // SkillRate,
-  },
 });
 </script>
 

@@ -1,9 +1,10 @@
 <template>
   <div>
-    <h1>Other projects</h1>
+    <h1>{{ $t('other_title') }}</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some apps, arts or other projects I've made or heavily contributed to.     </div>
+      {{ $t('other_subtitle') }}
+    </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
 </template>

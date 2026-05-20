@@ -16,7 +16,7 @@ export default [
         What I've done now :
         <ul>
         <li>Narrative research</li>
-        <li>Dialogue writing/li>
+        <li>Dialogue writing</li>
         <li>2D character concept</li>
         <li>3D character modelization</li>
         </ul>
