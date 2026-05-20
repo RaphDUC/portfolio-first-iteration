@@ -44,18 +44,29 @@ export default Vue.extend({
   data: function () {
     return {
       showPopup: false,
-      popupTitle: "",
-      popupColor: "",
-      popupContent: ""
+      selectedProject: null as ProjectData | null,
     };
+  },
+  computed: {
+    popupTitle(): string {
+      return (this as any).selectedProject?.name ?? '';
+    },
+    popupColor(): string {
+      return (this as any).selectedProject?.accentColor ?? '';
+    },
+    popupContent(): string {
+      const proj = (this as any).selectedProject as ProjectData | null;
+      if (!proj) return '';
+      return ((this as any).$lang === 'fr' && proj.htmlDescriptionFr)
+        ? proj.htmlDescriptionFr
+        : proj.htmlDescription;
+    },
   },
   methods: {
     showDetails: function (item: ProjectData) {
-      this.popupTitle = item.name;
-      this.popupColor = item.accentColor;
-      this.popupContent = item.htmlDescription;
+      (this as any).selectedProject = item;
       this.showPopup = true;
-      window.scrollTo(0,0);
+      window.scrollTo(0, 0);
     },
   },
 });
