@@ -140,6 +140,9 @@
 
         <h3>{{ $t('hobby_y2k_title') }}</h3>
         <div>{{ $t('hobby_y2k') }}</div>
+
+        <h3>{{ $t('hobby_aviation_title') }}</h3>
+        <div>{{ $t('hobby_aviation') }}</div>
       </div>
     </div>
   </div>

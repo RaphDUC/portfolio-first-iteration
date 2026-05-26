@@ -80,8 +80,10 @@ export const translations: Translations = {
     hobby_sports: 'I often go out during my breaks and enjoy hiking, basketball, swimming, and kung fu. I also take photos on the go — especially during hikes.',
     hobby_trips_title: 'I 💚 Trips',
     hobby_trips: 'Australia and Ireland (with the BEST association), South Africa, Mauritius, Seychelles.',
-    hobby_y2k_title: 'I 💙 Y2K Futurism & Aviation',
-    hobby_y2k: 'Big fan of the "futuristic Y2K mood" — the way the late 90s and early 2000s imagined the future, across graphic interfaces, architecture, ambiance, music, and sound design. Aviation and space are also passions: I once dreamed of becoming a pilot, and now I have Flight Simulator and the machine to run it (that counts, right?...).',
+    hobby_y2k_title: 'I 💙 the Y2K Futurist Mood',
+    hobby_y2k: 'I am deeply fond of the aesthetic born at the turn of the millennium — the way the late 90s and early 2000s imagined the future. On the urban side: Jet Set Radio\'s vibrant cel-shaded streets. On the sleek and digital side: Wipeout\'s iconic Designers Republic-crafted interfaces, Rez\'s synaesthetic abstraction, Ace Combat 3: Electrosphere\'s near-future UI, Zone of the Enders\' sharp mecha design, and F-Zero GX\'s hyperspeed visual language. The music side of this mood is equally dear: jungle and liquid drum & bass.',
+    hobby_aviation_title: 'I 🛩️ Aviation',
+    hobby_aviation: 'A lifelong passion: I have loved spotting and identifying airline liveries since childhood, and I enjoy reading about aircraft design and engineering. I once dreamed of becoming a pilot — and now I have Flight Simulator and the machine to run it. That counts, right?',
   },
 
   fr: {
@@ -160,7 +162,9 @@ export const translations: Translations = {
     hobby_sports: "Je sors souvent pendant mes pauses et j'apprécie surtout la randonnée, le basketball, la natation et le kung fu. Je prends aussi des photos en chemin, notamment lors de mes randonnées.",
     hobby_trips_title: "J'💚 les Voyages",
     hobby_trips: "Australie et Irlande (avec l'association BEST), Afrique du Sud, Maurice, Seychelles.",
-    hobby_y2k_title: "J'💙 le Futurisme Y2K & l'Aviation",
-    hobby_y2k: "Grand fan du « mood Y2K futuriste » — la façon dont la fin des années 90 et le début des années 2000 imaginaient le futur : interfaces graphiques, architecture, ambiances, musiques, sound design. L'aviation et l'espace aussi : j'ai rêvé d'être pilote, et maintenant j'ai Flight Simulator et la machine pour le faire tourner (ça compte, non ?...).",
+    hobby_y2k_title: "J'💙 le Mood Y2K Futuriste",
+    hobby_y2k: "J'ai un attachement profond pour l'esthétique née au tournant du millénaire — la façon dont la fin des années 90 et le début des années 2000 imaginaient le futur. Côté urbain : les rues cel-shadées et vibrantes de Jet Set Radio. Côté épuré et digital : les interfaces iconiques de Wipeout conçues par Designers Republic, l'abstraction synesthésique de Rez, l'interface near-future d'Ace Combat 3 : Electrosphere, le design mecha tranchant de Zone of the Enders, et le langage visuel hypervéloce de F-Zero GX. Le versant musical de ce mood m'est tout aussi cher : jungle et drum & bass liquide.",
+    hobby_aviation_title: "J'🛩️ l'Aviation",
+    hobby_aviation: "Une passion depuis l'enfance : j'adore repérer et deviner les compagnies aériennes à leurs livrées, et je me passionne pour la conception et l'ingénierie des aéronefs. J'ai longtemps rêvé d'être pilote — et maintenant j'ai Flight Simulator et la machine pour le faire tourner. Ça compte, non ?",
   },
 }
