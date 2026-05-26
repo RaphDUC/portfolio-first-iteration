@@ -1,4 +1,254 @@
-import{P as e,a as t}from"./ProjectData-CEThY4UN.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-BdKkafdo.js";const u=[new e("project-06","GoatBoi","img/projects/project-GOAT-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-CNFdo2Fr.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-B4c00eqo.js";const u=[new e("project-PAW","Pawater","img/projects/project-PAW-icon.png",`<div class="paragraph">
+      <strong>Pawater</strong> is a solo fast-paced 3D platformer concept built with Unreal Engine 5, developed from November to December 2025.
+      <br/>Typhy, a young anthropomorphic cat, is called to adventure to face his fear of water — powered by the ability to surf and grind on water surfaces and waves, as well as slide and wall-run on any terrain.
+      <br/>Set across tropical island obstacle courses, the game channels a <strong>Dreamcast / Y2K aesthetic</strong> inspired by early Sonic Adventure, with a focus on speed, fluidity, and momentum. An ever-increasing FOV and linear level design reward players who pick up speed and find shortcuts — never letting them stop.
+    </div>
+    <div class="paragraph">
+      Inspirations:
+      <ul>
+        <li><em>Sonic Adventure</em> — Dreamcast/Y2K visual aesthetic, linear corridor level design, progressive speed as reward</li>
+        <li><em>Mirror's Edge</em> — parkour movement variety, chaining fluency, immersive FOV</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li>Solo project — all design, programming, tech art, and visual direction</li>
+        <li>Hybrid parkour system: ground movement + water surfing, grinding, and sliding</li>
+        <li>Momentum-based speed system with dynamic FOV</li>
+        <li>Dreamcast/Y2K shaders and post-processing</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-PAW-A.png" alt="Pawater — Gameplay Overview" />
+      <img class="game-screenshot" src="img/projects/project-PAW-B.png" alt="Pawater — Water Surfing" />
+    </div>`,"#0099b8",!1,!1,`<div class="paragraph">
+      <strong>Pawater</strong> est un concept de jeu de plateforme 3D rapide entièrement solo réalisé sous Unreal Engine 5, développé de novembre à décembre 2025.
+      <br/>Typhy, un jeune chat anthropomorphe, est appelé à l'aventure pour affronter sa peur de l'eau — grâce au pouvoir de surfer et de grinder sur les surfaces et vagues aquatiques, ainsi que de slider et faire du wall run sur toutes les surfaces.
+      <br/>Situé dans des parcours d'obstacles au milieu d'îles tropicales, le jeu s'inspire d'une <strong>esthétique Dreamcast / Y2K</strong> proche des premiers Sonic Adventure, avec un accent sur la vitesse, la fluidité et le momentum. Un FOV progressif et un level design linéaire récompensent les joueurs qui prennent de la vitesse et trouvent des raccourcis — sans jamais s'arrêter.
+    </div>
+    <div class="paragraph">
+      Inspirations :
+      <ul>
+        <li><em>Sonic Adventure</em> — esthétique visuelle Dreamcast/Y2K, level design en couloir linéaire, vitesse progressive comme récompense</li>
+        <li><em>Mirror's Edge</em> — variété de mouvements de parkour, fluidité des enchaînements, FOV immersif</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li>Projet solo — tout le design, la programmation, le tech art et la direction visuelle</li>
+        <li>Système de parkour hybride : mouvements au sol + surf, grind et slide sur l'eau</li>
+        <li>Système de vitesse basé sur le momentum avec FOV dynamique</li>
+        <li>Shaders et post-processing Dreamcast/Y2K</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-PAW-A.png" alt="Pawater — Aperçu gameplay" />
+      <img class="game-screenshot" src="img/projects/project-PAW-B.png" alt="Pawater — Surf sur l'eau" />
+    </div>`),new e("project-BANC","The Bancal Company in: The Marmots' Mine","img/projects/project-BANC-icon.png",`<div class="paragraph">
+      <strong>The Bancal Company in: The Marmots' Mine</strong> is a third-person N64-like action game built with Unreal Engine 5 during WonderJam Autumn 2025 (October 2025).
+      <br/>In the Wild West, three lazy yet resourceful miner buddies must destroy fake explosive wagons before too many blow up — each with their own distinct playstyle: a heavy brute, a veteran pebble-shooter, and an agile "Far West ninja".
+      <br/>The player controls them one at a time in their respective rooms while the other two stay decidedly idle. Keep a close eye on all three and swap control before too many wagons explode!
+    </div>
+    <div class="paragraph center">
+      You can play the game <a href="https://wlhib.itch.io/the-bancal-company-in-the-marmots-mine" target="_blank">here on itch.io</a>.
+    </div>
+    <div class="paragraph">
+      Team:
+      <ul>
+        <li><strong>jzedek</strong> — Programming, Level Design, Moral Support</li>
+        <li><strong>Legende_Urbaine</strong> — Music</li>
+        <li><strong>nyoukki</strong> — Programming, Level Design, Voice Acting</li>
+        <li><strong>CTXD</strong> — Programming, Level Design, Voice Acting</li>
+        <li><strong>JEJE</strong> — 3D Art, Animation</li>
+        <li><strong>lafpax</strong> — 2D Art, Textures</li>
+        <li><strong>WLHib (me)</strong> — Programming, UI, Tech Art, 3D Art (all 3D assets in the game)</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-BANC-A.png" alt="The Bancal Company — Gameplay" />
+      <img class="game-screenshot" src="img/projects/project-BANC-B.png" alt="The Bancal Company — The Mine" />
+    </div>`,"#9c6b1e",!1,!1,`<div class="paragraph">
+      <strong>The Bancal Company in: The Marmots' Mine</strong> est un jeu d'action à la troisième personne au style N64-like réalisé sous Unreal Engine 5 lors de la WonderJam Automne 2025 (octobre 2025).
+      <br/>Dans le Far West, trois mineurs compères, quoique paresseux, doivent détruire de faux wagons explosifs avant que trop n'explosent — chacun avec son propre style de jeu : un baraqué, un vieux tireur de cailloux, et un jeune ninja agile du Far West.
+      <br/>Le joueur les contrôle un à un dans leurs salles respectives pendant que les deux autres font peu de cas. Surveillez les trois et changez de personnage avant que trop de wagons n'explosent !
+    </div>
+    <div class="paragraph center">
+      Vous pouvez jouer au jeu <a href="https://wlhib.itch.io/the-bancal-company-in-the-marmots-mine" target="_blank">ici sur itch.io</a>.
+    </div>
+    <div class="paragraph">
+      Équipe :
+      <ul>
+        <li><strong>jzedek</strong> — Programmation, Level Design, Soutien moral</li>
+        <li><strong>Legende_Urbaine</strong> — Musique</li>
+        <li><strong>nyoukki</strong> — Programmation, Level Design, Voice Acting</li>
+        <li><strong>CTXD</strong> — Programmation, Level Design, Voice Acting</li>
+        <li><strong>JEJE</strong> — Art 3D, Animation</li>
+        <li><strong>lafpax</strong> — Art 2D, Textures</li>
+        <li><strong>WLHib (moi)</strong> — Programmation, UI, Tech Art, Art 3D (tous les assets 3D du jeu)</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-BANC-A.png" alt="The Bancal Company — Gameplay" />
+      <img class="game-screenshot" src="img/projects/project-BANC-B.png" alt="The Bancal Company — La mine" />
+    </div>`),new e("project-O5T","O5tium","img/projects/project-O5T-icon.png",`<div class="paragraph">
+      <strong>O5tium</strong> is a short silent narrative game built with Unreal Engine 5 over two weeks in December 2024 and released on itch.io.
+      <br/>You spend 5 days alongside an isolated and depressed protagonist, confined to a single room. Try to find a way out.
+    </div>
+    <div class="paragraph center">
+      You can play the game <a href="https://alt-128.itch.io/o5tium" target="_blank">here on itch.io</a>.
+      <br/>The in-game music by Legende_urbaine is available <a href="https://m.soundcloud.com/legend-urbaine/o5tium-in-game" target="_blank">on SoundCloud</a>.
+    </div>
+    <div class="paragraph">
+      Team:
+      <ul>
+        <li><strong>Game Design &amp; Level Design</strong> — Mewaska, Wav_le_hib (me), valnobdago, Eli, Alt128</li>
+        <li><strong>Programming</strong> — Wav_le_hib (me)</li>
+        <li><strong>Music</strong> — Legende_urbaine</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-O5T-A.png" alt="O5tium — Day 1" />
+      <img class="game-screenshot" src="img/projects/project-O5T-B.png" alt="O5tium — The Room" />
+    </div>`,"#3d3d6e",!1,!1,`<div class="paragraph">
+      <strong>O5tium</strong> est un court jeu narratif muet réalisé sous Unreal Engine 5 en deux semaines en décembre 2024 et publié sur itch.io.
+      <br/>Vous passez 5 jours aux côtés d'un protagoniste isolé et dépressif, confiné dans son unique pièce. Essayez de trouver une sortie.
+    </div>
+    <div class="paragraph center">
+      Vous pouvez jouer au jeu <a href="https://alt-128.itch.io/o5tium" target="_blank">ici sur itch.io</a>.
+      <br/>La musique en jeu de Legende_urbaine est disponible <a href="https://m.soundcloud.com/legend-urbaine/o5tium-in-game" target="_blank">sur SoundCloud</a>.
+    </div>
+    <div class="paragraph">
+      Équipe :
+      <ul>
+        <li><strong>Game Design &amp; Level Design</strong> — Mewaska, Wav_le_hib (moi), valnobdago, Eli, Alt128</li>
+        <li><strong>Programmation</strong> — Wav_le_hib (moi)</li>
+        <li><strong>Musique</strong> — Legende_urbaine</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-O5T-A.png" alt="O5tium — Jour 1" />
+      <img class="game-screenshot" src="img/projects/project-O5T-B.png" alt="O5tium — La pièce" />
+    </div>`),new e("project-HEADNT","Headn't","img/projects/project-HEADNT-icon.png",`<div class="paragraph">
+      <strong>Headn't</strong> is an unfinished split-screen local co-op third-person concept built with Unreal Engine 5 as an HEAJ end-of-year project (June 2024).
+      <br/>Two players respectively control the <strong>torso</strong> and the <strong>two legs</strong> of a robot searching for its missing head in an abandoned brutalist factory with Source Engine-inspired textures (think Half-Life 2).
+      <br/>Each half has asynchronous abilities used to solve a variety of puzzles: the torso can grab and pull objects or climb surfaces; the legs can charge a sprint or a jump; both can kick or punch to trigger mechanisms.
+    </div>
+    <div class="paragraph center">
+      Download the current build <a href="https://drive.google.com/drive/folders/YOUR_PLACEHOLDER_FOLDER_ID" target="_blank">here on Google Drive</a> (placeholder link — to be updated).
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li>All programming</li>
+        <li>Part of the level design</li>
+        <li>VFX and shader work</li>
+      </ul>
+      Three HEAJ artists assisted on the tech art mentioned above and created all game assets.
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Split-screen View" />
+      <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Factory Environment" />
+    </div>`,"#6a6a7a",!1,!1,`<div class="paragraph">
+      <strong>Headn't</strong> est un concept de jeu en coopération locale (écran splitté) à la troisième personne non terminé, réalisé sous Unreal Engine 5 comme projet de fin d'année à l'HEAJ (juin 2024).
+      <br/>Deux joueurs contrôlent respectivement le <strong>buste</strong> et les <strong>deux jambes</strong> d'un robot à la recherche de sa tête disparue dans une ancienne usine brutaliste aux textures inspirées des jeux Source Engine (surtout Half-Life 2).
+      <br/>Chaque moitié dispose de capacités asynchrones pour résoudre divers puzzles : le buste peut attraper et tirer des objets ou escalader des surfaces ; les jambes peuvent charger un sprint ou un saut ; les deux peuvent donner un coup de pied ou de poing pour actionner des mécanismes.
+    </div>
+    <div class="paragraph center">
+      Télécharger la build actuelle <a href="https://drive.google.com/drive/folders/YOUR_PLACEHOLDER_FOLDER_ID" target="_blank">ici sur Google Drive</a> (lien provisoire — à mettre à jour).
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li>Toute la programmation</li>
+        <li>Une partie du level design</li>
+        <li>VFX et travail sur les shaders</li>
+      </ul>
+      Trois artistes de l'HEAJ ont assisté sur la partie tech art et créé l'intégralité des assets du jeu.
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Vue en écran splitté" />
+      <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Usine brutaliste" />
+    </div>`),new e("project-ALULA","Alüla","img/projects/project-ALULA-icon.png",`<div class="paragraph">
+      <strong>Alüla</strong> is a local multiplayer bird-racing game built with Unreal Engine 5 for WonderJam Winter 2024 (February 2024).
+      <br/>2 to 4 players race virtual birds at high speed in a straight line through a neon data tunnel, each trying to be first through the doors that appear along the way. The last player to reach a door is eliminated; winners race again until only one remains.
+      <br/>Obstacles along the tunnel change your speed for better or worse, and completing quests mid-race rewards you with a speed boost.
+      <br/>This was also my first real experiment with <strong>intentionally downgrading the engine's rendering</strong> to reproduce the look and feel of early PS1 games.
+    </div>
+    <div class="paragraph center">
+      You can play the game <a href="https://tacos3viandes.itch.io/alula" target="_blank">here on itch.io</a>.
+    </div>
+    <div class="paragraph">
+      Team:
+      <ul>
+        <li><strong>The10axe</strong> — Lead dev &amp; programming</li>
+        <li><strong>Wreach</strong> — Music, sound, UI, programming</li>
+        <li><strong>WLHib (me)</strong> — UI, tech art, programming, all 3D assets</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-ALULA-A.png" alt="Alüla — Data Tunnel Race" />
+      <img class="game-screenshot" src="img/projects/project-ALULA-B.png" alt="Alüla — PS1 Aesthetic" />
+    </div>`,"#6633aa",!1,!1,`<div class="paragraph">
+      <strong>Alüla</strong> est un jeu de course d'oiseaux en multijoueur local réalisé sous Unreal Engine 5 pour la WonderJam Hiver 2024 (février 2024).
+      <br/>2 à 4 joueurs font s'affronter des oiseaux virtuels en ligne droite à grande vitesse dans un tunnel de données néon, chacun cherchant à passer en premier les portes qui apparaissent en chemin. Le dernier joueur à atteindre une porte est éliminé ; les gagnants se retrouvent à nouveau jusqu'à ce qu'il n'en reste plus qu'un.
+      <br/>Des obstacles le long du tunnel modifient votre vitesse en bien ou en mal, et accomplir des quêtes en pleine course vous récompense d'un boost de vitesse.
+      <br/>Ce projet est aussi ma première vraie expérimentation à <strong>dégrader intentionnellement le rendu du moteur</strong> pour se rapprocher de l'esthétique des premiers jeux PS1.
+    </div>
+    <div class="paragraph center">
+      Vous pouvez jouer au jeu <a href="https://tacos3viandes.itch.io/alula" target="_blank">ici sur itch.io</a>.
+    </div>
+    <div class="paragraph">
+      Équipe :
+      <ul>
+        <li><strong>The10axe</strong> — Lead dev &amp; programmation</li>
+        <li><strong>Wreach</strong> — Musique, son, UI, programmation</li>
+        <li><strong>WLHib (moi)</strong> — UI, tech art, programmation, tous les assets 3D du jeu</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-ALULA-A.png" alt="Alüla — Course dans le tunnel" />
+      <img class="game-screenshot" src="img/projects/project-ALULA-B.png" alt="Alüla — Esthétique PS1" />
+    </div>`),new e("project-TTT","Three Tree Trails","img/projects/project-TTT-icon.png",`<div class="paragraph">
+      <strong>Three Tree Trails</strong> is my first visual novel, built with Ren'Py in 24 hours for Lame Jam 48 (February 2024).
+      <br/>Follow the fabulous adventure of three trees from La Côte-Saint-André investigating a mysterious water pollution.
+      <br/>Featuring: a diabolical washing machine, a prison break, a pirate's treasure, a time machine, and two possible endings.
+      <br/><em>Maybe the worst game we made out so far.</em> A game about life, death, power struggle, resistance, drama, and pirates treasures.
+    </div>
+    <div class="paragraph center">
+      You can play the game <a href="https://tomdouaud.itch.io/three-tree-tails" target="_blank">here on itch.io</a>.
+    </div>
+    <div class="paragraph">
+      Team:
+      <ul>
+        <li><strong>Tom Douaud</strong></li>
+        <li><strong>WLHib (me)</strong></li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-TTT-A.png" alt="Three Tree Trails — Title Screen" />
+      <img class="game-screenshot" src="img/projects/project-TTT-B.png" alt="Three Tree Trails — The Trees" />
+    </div>`,"#2d6a4f",!1,!1,`<div class="paragraph">
+      <strong>Three Tree Trails</strong> est mon premier visual novel, réalisé avec Ren'Py en 24 heures pour la Lame Jam 48 (février 2024).
+      <br/>Suivez la fabuleuse aventure de trois arbres de la Côte-Saint-André enquêtant sur une mystérieuse pollution de l'eau.
+      <br/>Au programme : une machine à laver diabolique, une évasion de prison, un trésor de pirate, une machine à remonter dans le temps, et deux fins possibles.
+      <br/><em>Peut-être le pire jeu qu'on ait fait jusqu'ici.</em> Un jeu sur la vie, la mort, les luttes de pouvoir, la résistance, le drame, et les trésors de pirates.
+    </div>
+    <div class="paragraph center">
+      Vous pouvez jouer au jeu <a href="https://tomdouaud.itch.io/three-tree-tails" target="_blank">ici sur itch.io</a>.
+    </div>
+    <div class="paragraph">
+      Équipe :
+      <ul>
+        <li><strong>Tom Douaud</strong></li>
+        <li><strong>WLHib (moi)</strong></li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-TTT-A.png" alt="Three Tree Trails — Écran titre" />
+      <img class="game-screenshot" src="img/projects/project-TTT-B.png" alt="Three Tree Trails — Les arbres" />
+    </div>`),new e("project-06","GoatBoi","img/projects/project-GOAT-icon.png",`<div class="paragraph">
       <strong>GoatBoi</strong> is a 3D platformer prototype built in less than a month with Unreal Engine for a final exam.
       <br/>Organised in a group of six, we drew inspiration from how 2000s-era platformers blended multiple mechanics alongside their core features.
       <br/>Since four of us had never used Unreal Engine before, we ran teaching sessions so everyone could acquire the required skills.
@@ -694,4 +944,4 @@ import{P as e,a as t}from"./ProjectData-CEThY4UN.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-BAO-A.png" alt="Page de BD" />
       <img class="game-screenshot" src="img/projects/project-BAO-B.png" alt="Niveau Demo" />
-    </div>`)],m=n({name:"GameProjects",components:{ProjectsList:t},data:function(){return{projects:u}}}),d={style:{"margin-bottom":"30px"}};function h(a,v,b,j,f,y){const i=p("ProjectsList");return g(),l("div",null,[r("h1",null,s(a.$t("games_title")),1),r("div",d,s(a.$t("games_subtitle")),1),c(i,{projects:a.projects},null,8,["projects"])])}const A=o(m,[["render",h]]);export{A as default};
+    </div>`)],d=n({name:"GameProjects",components:{ProjectsList:t},data:function(){return{projects:u}}}),m={style:{"margin-bottom":"30px"}};function h(a,v,b,j,f,y){const i=p("ProjectsList");return g(),l("div",null,[r("h1",null,s(a.$t("games_title")),1),r("div",m,s(a.$t("games_subtitle")),1),c(i,{projects:a.projects},null,8,["projects"])])}const D=o(d,[["render",h]]);export{D as default};
