@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-CtHeh2Wq.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-6K8A4voU.js";const u=[new e("project-06","GoatBoi","img/projects/project-GOAT-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-CEThY4UN.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-BdKkafdo.js";const u=[new e("project-06","GoatBoi","img/projects/project-GOAT-icon.png",`<div class="paragraph">
       <strong>GoatBoi</strong> is a 3D platformer prototype built in less than a month with Unreal Engine for a final exam.
       <br/>Organised in a group of six, we drew inspiration from how 2000s-era platformers blended multiple mechanics alongside their core features.
       <br/>Since four of us had never used Unreal Engine before, we ran teaching sessions so everyone could acquire the required skills.
