@@ -137,6 +137,9 @@
 
         <h3>{{ $t('hobby_trips_title') }}</h3>
         <div>{{ $t('hobby_trips') }}</div>
+
+        <h3>{{ $t('hobby_y2k_title') }}</h3>
+        <div>{{ $t('hobby_y2k') }}</div>
       </div>
     </div>
   </div>

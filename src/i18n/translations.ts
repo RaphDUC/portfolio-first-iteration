@@ -71,15 +71,17 @@ export const translations: Translations = {
     lang_rc_level: "Ça lé aussi ma langue maternelle, oté ! (\"This is also my mother tongue!\")",
 
     // Resume – hobbies
-    hobby_games_title: 'I ❤️ Video Games',
-    hobby_games_1: 'Not only do I enjoy playing most of them, but also talking and debating about them, or studying their gameplay and artistic features.',
-    hobby_games_2: 'From unknown indies to AAAs, I like to expand my curiosity. I am particularly fond of immersive sims, contemplative games, and fast-paced FPS.',
-    hobby_drama_title: 'I 🧡 Drama',
-    hobby_drama: 'I really like acting and playing characters. I participated in the Komidi Festival in 2016 and acted in "Big One" by Reunionese actor Sergio Grondin.',
-    hobby_sports_title: 'I 💛 Sports',
-    hobby_sports: 'I often go out during my breaks. I mostly enjoy hiking, basketball, swimming, and kung fu.',
+    hobby_games_title: 'I ❤️ Video & Tabletop Games',
+    hobby_games_1: 'Not only do I enjoy playing most of them, but also talking, debating, and studying their gameplay and artistic features. I also play board games — still a newcomer to strategy titles — and have been playing Tabletop RPGs for 12 years.',
+    hobby_games_2: 'From unknown indies to AAAs, I like to expand my curiosity across genres, solo and multiplayer alike. Finding a single favourite is genuinely hard. I have a particular soft spot for Immersive Sims — especially the Deus Ex series, for their openness and multi-approach design — and for Fumito Ueda\'s games (Ico, Shadow of the Colossus, The Last Guardian, and Project Robot has caught my attention) for their world-building and minimalist game design.',
+    hobby_drama_title: 'I 🧡 Drama, Dubbing & Arts',
+    hobby_drama: 'I really like acting and playing characters. I participated in the Komidi Festival in 2016 and acted in "Big One" by Reunionese actor Sergio Grondin. I am also a big fan of voice acting and dubbing comedy, trying my hand at it with some video game parody editors. More broadly: music, films, series, books, and attempting to draw (emphasis on "attempting" :\'D).',
+    hobby_sports_title: 'I 💛 Sports & Photography',
+    hobby_sports: 'I often go out during my breaks and enjoy hiking, basketball, swimming, and kung fu. I also take photos on the go — especially during hikes.',
     hobby_trips_title: 'I 💚 Trips',
     hobby_trips: 'Australia and Ireland (with the BEST association), South Africa, Mauritius, Seychelles.',
+    hobby_y2k_title: 'I 💙 Y2K Futurism & Aviation',
+    hobby_y2k: 'Big fan of the "futuristic Y2K mood" — the way the late 90s and early 2000s imagined the future, across graphic interfaces, architecture, ambiance, music, and sound design. Aviation and space are also passions: I once dreamed of becoming a pilot, and now I have Flight Simulator and the machine to run it (that counts, right?...).',
   },
 
   fr: {
@@ -149,14 +151,16 @@ export const translations: Translations = {
     lang_rc_level: "Ça lé aussi ma langue maternelle, oté ! (« C'est aussi ma langue maternelle ! »)",
 
     // Resume – hobbies
-    hobby_games_title: "J'❤️ les Jeux Vidéo",
-    hobby_games_1: "Je prends plaisir à y jouer, mais aussi à en parler, à les analyser, ou à étudier leurs mécaniques de gameplay et leurs partis pris artistiques.",
-    hobby_games_2: "Des indés méconnus aux AAA, j'aime élargir ma curiosité. Je suis particulièrement fan de sims immersifs, de jeux contemplatifs et de FPS nerveux.",
-    hobby_drama_title: "J'🧡 le Théâtre",
-    hobby_drama: "J'aime beaucoup jouer des personnages. J'ai participé au Festival Komidi en 2016 et joué dans « Big One » de l'acteur réunionnais Sergio Grondin.",
-    hobby_sports_title: "J'💛 le Sport",
-    hobby_sports: "Je sors souvent pendant mes pauses. J'apprécie surtout la randonnée, le basketball, la natation et le kung fu.",
+    hobby_games_title: "J'❤️ les Jeux Vidéo & de Société",
+    hobby_games_1: "Je prends plaisir à y jouer, mais aussi à en parler, à les analyser, ou à étudier leurs mécaniques de gameplay et leurs partis pris artistiques. Je joue aussi aux jeux de société — encore tout novice en jeux de stratégie — et aux Tabletop RPGs depuis 12 ans.",
+    hobby_games_2: "Des indés méconnus aux AAA, j'aime élargir ma curiosité dans tous les genres, en solo comme en multijoueur. Trouver un jeu favori est difficile. J'ai peut-être un amour particulier pour les Immersive Sims — surtout la saga Deus Ex, pour leur ouverture et leurs approches multiples — et pour les jeux de Fumito Ueda (Ico, Shadow of the Colossus, The Last Guardian, et Project Robot m'a intrigué) pour leurs univers et leur game design minimaliste.",
+    hobby_drama_title: "J'🧡 le Théâtre, le Doublage & les Arts",
+    hobby_drama: "J'aime beaucoup jouer des personnages. J'ai participé au Festival Komidi en 2016 et joué dans « Big One » de l'acteur réunionnais Sergio Grondin. Je suis aussi un grand fan de la comédie de doublage, et je m'y essaie avec certains monteurs de parodie de jeu vidéo. Plus largement : musique, films, séries, livres, et essayer de dessiner (j'ai bien dit « essayer » :'D).",
+    hobby_sports_title: "J'💛 le Sport & la Photo",
+    hobby_sports: "Je sors souvent pendant mes pauses et j'apprécie surtout la randonnée, le basketball, la natation et le kung fu. Je prends aussi des photos en chemin, notamment lors de mes randonnées.",
     hobby_trips_title: "J'💚 les Voyages",
     hobby_trips: "Australie et Irlande (avec l'association BEST), Afrique du Sud, Maurice, Seychelles.",
+    hobby_y2k_title: "J'💙 le Futurisme Y2K & l'Aviation",
+    hobby_y2k: "Grand fan du « mood Y2K futuriste » — la façon dont la fin des années 90 et le début des années 2000 imaginaient le futur : interfaces graphiques, architecture, ambiances, musiques, sound design. L'aviation et l'espace aussi : j'ai rêvé d'être pilote, et maintenant j'ai Flight Simulator et la machine pour le faire tourner (ça compte, non ?...).",
   },
 }
