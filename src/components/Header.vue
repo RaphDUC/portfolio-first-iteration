@@ -56,7 +56,7 @@ export default defineComponent({
   text-align: right;
   padding: 20px;
   line-height: 3em;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Audiowide', sans-serif;
 }
 
 a {
