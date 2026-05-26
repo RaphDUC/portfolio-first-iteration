@@ -4,6 +4,7 @@
       <router-link to="/" @mouseenter="play('navigate')">{{ $t('nav_about') }}</router-link>
       <router-link to="/game-projects" @mouseenter="play('navigate')">{{ $t('nav_games') }}</router-link>
       <router-link to="/other-projects" @mouseenter="play('navigate')">{{ $t('nav_other') }}</router-link>
+      <router-link to="/internship-projects" @mouseenter="play('navigate')">{{ $t('nav_internship') }}</router-link>
       <router-link to="/resume" @mouseenter="play('navigate')">{{ $t('nav_resume') }}</router-link>
       <router-link to="/contact" @mouseenter="play('navigate')">{{ $t('nav_contact') }}</router-link>
       <span class="lang-toggle">

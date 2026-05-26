@@ -9,6 +9,7 @@ export const translations: Translations = {
     nav_about: 'About me',
     nav_games: 'Games',
     nav_other: 'Other projects',
+    nav_internship: 'Internship',
     nav_resume: 'Resume',
     nav_contact: 'Contact me',
 
@@ -31,6 +32,10 @@ export const translations: Translations = {
     // Other projects page
     other_title: 'Other projects',
     other_subtitle: "The following are some apps, artworks, and other projects I've made or heavily contributed to.",
+
+    // Internship projects page
+    internship_title: 'Internship Projects',
+    internship_subtitle: "Below is a project I worked on professionally during my internship at Avalon Digital (April–June 2022).",
 
     // Contact page
     contact_title: "Let's get in touch",
@@ -82,6 +87,7 @@ export const translations: Translations = {
     nav_about: 'À propos',
     nav_games: 'Jeux',
     nav_other: 'Autres projets',
+    nav_internship: 'Stage',
     nav_resume: 'CV',
     nav_contact: 'Me contacter',
 
@@ -104,6 +110,10 @@ export const translations: Translations = {
     // Other projects page
     other_title: 'Autres projets',
     other_subtitle: "Voici quelques applications, œuvres artistiques et autres projets auxquels j'ai largement contribué ou que j'ai réalisés.",
+
+    // Internship projects page
+    internship_title: 'Projets de stage',
+    internship_subtitle: "Voici un projet sur lequel j'ai travaillé professionnellement lors de mon stage chez Avalon Digital (avril–juin 2022).",
 
     // Contact page
     contact_title: 'Entrons en contact',

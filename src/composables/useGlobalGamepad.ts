@@ -13,7 +13,7 @@ import { useSoundManager } from './useSoundManager'
  *   axes[2] = Right Stick X     axes[3] = Right Stick Y
  */
 
-const ROUTES       = ['/', '/game-projects', '/other-projects', '/resume', '/contact']
+const ROUTES       = ['/', '/game-projects', '/other-projects', '/internship-projects', '/resume', '/contact']
 const SCROLL_SPEED = 10   // px per frame for analog sticks (60fps ≈ 600px/s at full deflection)
 const DPAD_SCROLL  = 120  // px per digital D-pad press
 
