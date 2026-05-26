@@ -74,6 +74,7 @@ export default defineComponent({
   margin: 20px;
   padding-bottom: 10px;
   color: white;
+  box-shadow: 0 0 40px rgba(0, 232, 200, 0.2), inset 0 0 0 1px rgba(0, 232, 200, 0.15);
 }
 
 iframe {
@@ -85,6 +86,11 @@ h1.dialog-title {
   font-size: 1.3em;
   margin: 0;
   padding: 22px;
+}
+
+h1.dialog-title::before,
+h1.dialog-title::after {
+  display: none;
 }
 
 .dialog-content {

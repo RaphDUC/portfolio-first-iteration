@@ -107,12 +107,14 @@ a:hover::after {
 a:hover {
   color: @accentColor;
   opacity: 1;
+  text-shadow: 0 0 10px rgba(0, 232, 200, 0.55);
 }
 
 .router-link-exact-active {
   color: @accentColor;
   opacity: 1;
   border-bottom: 2px solid @accentColor;
+  text-shadow: 0 0 12px rgba(0, 232, 200, 0.6);
 }
 
 .router-link-exact-active::before,

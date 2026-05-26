@@ -192,6 +192,7 @@ export default defineComponent({
 .project-item.project-focused {
   filter: brightness(115%);
   outline: none;
+  box-shadow: 0 0 20px rgba(0, 232, 200, 0.3);
 }
 
 .title-bar {
@@ -206,10 +207,18 @@ export default defineComponent({
 .project-item:hover .title-bar,
 .project-item.project-focused .title-bar {
   border-top-color: var(--accent-color);
+  box-shadow: 0 -2px 8px rgba(0, 232, 200, 0.25);
 }
 
 .title-text {
   padding: 10px;
+}
+
+.title-text::before {
+  content: '▶ ';
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7em;
+  opacity: 0.65;
 }
 
 @media only screen and (min-width: 620px){

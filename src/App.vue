@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+    <div class="route-progress" :style="{ width: progressWidth + '%', opacity: progressVisible ? 1 : 0 }"></div>
     <Header />
     <div class="main">
       <transition name="scan" mode="out-in">
@@ -12,11 +12,12 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import { preloadImages } from './helpers';
 import { useGlobalGamepad } from './composables/useGlobalGamepad';
+import { useRouter } from 'vue-router';
 
 export default defineComponent({
   name: 'App',
@@ -25,6 +26,24 @@ export default defineComponent({
   },
   setup() {
     useGlobalGamepad()
+
+    const router = useRouter()
+    const progressWidth = ref(0)
+    const progressVisible = ref(false)
+
+    router.beforeEach(() => {
+      progressWidth.value = 0
+      progressVisible.value = true
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => { progressWidth.value = 75 })
+      })
+    })
+    router.afterEach(() => {
+      progressWidth.value = 100
+      setTimeout(() => { progressVisible.value = false }, 400)
+    })
+
+    return { progressWidth, progressVisible }
   },
   mounted() {
     // Preload heavy images or gifs that are used in other pages
@@ -87,6 +106,8 @@ a {
 }
 a:hover, .router-link-exact-active {
   opacity: 1;
+  color: var(--accent-color);
+  text-shadow: 0 0 8px rgba(0, 232, 200, 0.35);
 }
 
 h1 {
@@ -96,6 +117,34 @@ h1 {
   margin-bottom: 40px;
   margin-left: -2px; // hack to make it "seem" more aligned with smaller text content
   line-height: 1.1em;
+}
+
+h1:hover {
+  text-shadow: -2px 0 rgba(255, 0, 80, 0.4), 2px 0 rgba(0, 232, 200, 0.4);
+}
+
+h1::before {
+  content: '// SYS';
+  display: block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.28em;
+  line-height: 1.5;
+  color: var(--accent-color);
+  opacity: 0.55;
+  letter-spacing: 0.18em;
+  margin-bottom: 6px;
+  text-shadow: none;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: var(--accent-color);
+  box-shadow: 0 0 8px var(--accent-color);
+  margin-top: 10px;
+  animation: h1-underline 0.5s ease 0.15s forwards;
 }
 
 .main {
@@ -139,6 +188,22 @@ h1 {
 @keyframes scanOut {
   0%   { clip-path: inset(0 0 0%   0); opacity: 1; }
   100% { clip-path: inset(0 0 100% 0); opacity: 0; }
+}
+
+.route-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--accent-color);
+  box-shadow: 0 0 8px var(--accent-color);
+  transition: width 0.3s ease, opacity 0.4s ease;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+@keyframes h1-underline {
+  to { width: 48px; }
 }
 
 </style>
