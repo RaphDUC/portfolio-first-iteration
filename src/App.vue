@@ -63,7 +63,7 @@ body.gamepad-active * {
   background-color: @contentBgColor;
   color: @textColor;
 
-  font-family: 'Karla', Helvetica, Arial, sans-serif;
+  font-family: 'Oxanium', Helvetica, Arial, sans-serif;
   font-feature-settings: 'kern' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -75,7 +75,7 @@ body.gamepad-active * {
 
 h1, h2, h3, h4, h5 {
   text-align: left;
-  font-family: 'Exo 2', 'Karla', Helvetica, Arial, sans-serif;
+  font-family: 'Audiowide', 'Oxanium', Helvetica, Arial, sans-serif;
   letter-spacing: 0.04em;
   font-weight: 200;
 }
