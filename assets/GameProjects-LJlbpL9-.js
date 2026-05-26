@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-CNFdo2Fr.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-B4c00eqo.js";const u=[new e("project-PAW","Pawater","img/projects/project-PAW-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-Bknl9NEI.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-CZ7p5vmf.js";const u=[new e("project-PAW","Pawater","img/projects/project-PAW-icon.png",`<div class="paragraph">
       <strong>Pawater</strong> is a solo fast-paced 3D platformer concept built with Unreal Engine 5, developed from November to December 2025.
       <br/>Typhy, a young anthropomorphic cat, is called to adventure to face his fear of water — powered by the ability to surf and grind on water surfaces and waves, as well as slide and wall-run on any terrain.
       <br/>Set across tropical island obstacle courses, the game channels a <strong>Dreamcast / Y2K aesthetic</strong> inspired by early Sonic Adventure, with a focus on speed, fluidity, and momentum. An ever-increasing FOV and linear level design reward players who pick up speed and find shortcuts — never letting them stop.
@@ -171,7 +171,7 @@ import{P as e,a as t}from"./ProjectData-CNFdo2Fr.js";import{i as n,_ as o,e as l
       <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Vue en écran splitté" />
       <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Usine brutaliste" />
     </div>`),new e("project-ALULA","Alüla","img/projects/project-ALULA-icon.png",`<div class="paragraph">
-      <strong>Alüla</strong> is a local multiplayer bird-racing game built with Unreal Engine 5 for WonderJam Winter 2024 (February 2024).
+      <strong>Alüla</strong> is a local multiplayer bird-racing game built with Unreal Engine 5 for WonderJam Winter 2025 (February 2025).
       <br/>2 to 4 players race virtual birds at high speed in a straight line through a neon data tunnel, each trying to be first through the doors that appear along the way. The last player to reach a door is eliminated; winners race again until only one remains.
       <br/>Obstacles along the tunnel change your speed for better or worse, and completing quests mid-race rewards you with a speed boost.
       <br/>This was also my first real experiment with <strong>intentionally downgrading the engine's rendering</strong> to reproduce the look and feel of early PS1 games.
@@ -191,7 +191,7 @@ import{P as e,a as t}from"./ProjectData-CNFdo2Fr.js";import{i as n,_ as o,e as l
       <img class="game-screenshot" src="img/projects/project-ALULA-A.png" alt="Alüla — Data Tunnel Race" />
       <img class="game-screenshot" src="img/projects/project-ALULA-B.png" alt="Alüla — PS1 Aesthetic" />
     </div>`,"#6633aa",!1,!1,`<div class="paragraph">
-      <strong>Alüla</strong> est un jeu de course d'oiseaux en multijoueur local réalisé sous Unreal Engine 5 pour la WonderJam Hiver 2024 (février 2024).
+      <strong>Alüla</strong> est un jeu de course d'oiseaux en multijoueur local réalisé sous Unreal Engine 5 pour la WonderJam Hiver 2025 (février 2025).
       <br/>2 à 4 joueurs font s'affronter des oiseaux virtuels en ligne droite à grande vitesse dans un tunnel de données néon, chacun cherchant à passer en premier les portes qui apparaissent en chemin. Le dernier joueur à atteindre une porte est éliminé ; les gagnants se retrouvent à nouveau jusqu'à ce qu'il n'en reste plus qu'un.
       <br/>Des obstacles le long du tunnel modifient votre vitesse en bien ou en mal, et accomplir des quêtes en pleine course vous récompense d'un boost de vitesse.
       <br/>Ce projet est aussi ma première vraie expérimentation à <strong>dégrader intentionnellement le rendu du moteur</strong> pour se rapprocher de l'esthétique des premiers jeux PS1.
@@ -211,7 +211,7 @@ import{P as e,a as t}from"./ProjectData-CNFdo2Fr.js";import{i as n,_ as o,e as l
       <img class="game-screenshot" src="img/projects/project-ALULA-A.png" alt="Alüla — Course dans le tunnel" />
       <img class="game-screenshot" src="img/projects/project-ALULA-B.png" alt="Alüla — Esthétique PS1" />
     </div>`),new e("project-TTT","Three Tree Trails","img/projects/project-TTT-icon.png",`<div class="paragraph">
-      <strong>Three Tree Trails</strong> is my first visual novel, built with Ren'Py in 24 hours for Lame Jam 48 (February 2024).
+      <strong>Three Tree Trails</strong> is my first visual novel, built with Ren'Py in 24 hours for Lame Jam 48 (February 2025).
       <br/>Follow the fabulous adventure of three trees from La Côte-Saint-André investigating a mysterious water pollution.
       <br/>Featuring: a diabolical washing machine, a prison break, a pirate's treasure, a time machine, and two possible endings.
       <br/><em>Maybe the worst game we made out so far.</em> A game about life, death, power struggle, resistance, drama, and pirates treasures.
@@ -230,7 +230,7 @@ import{P as e,a as t}from"./ProjectData-CNFdo2Fr.js";import{i as n,_ as o,e as l
       <img class="game-screenshot" src="img/projects/project-TTT-A.png" alt="Three Tree Trails — Title Screen" />
       <img class="game-screenshot" src="img/projects/project-TTT-B.png" alt="Three Tree Trails — The Trees" />
     </div>`,"#2d6a4f",!1,!1,`<div class="paragraph">
-      <strong>Three Tree Trails</strong> est mon premier visual novel, réalisé avec Ren'Py en 24 heures pour la Lame Jam 48 (février 2024).
+      <strong>Three Tree Trails</strong> est mon premier visual novel, réalisé avec Ren'Py en 24 heures pour la Lame Jam 48 (février 2025).
       <br/>Suivez la fabuleuse aventure de trois arbres de la Côte-Saint-André enquêtant sur une mystérieuse pollution de l'eau.
       <br/>Au programme : une machine à laver diabolique, une évasion de prison, un trésor de pirate, une machine à remonter dans le temps, et deux fins possibles.
       <br/><em>Peut-être le pire jeu qu'on ait fait jusqu'ici.</em> Un jeu sur la vie, la mort, les luttes de pouvoir, la résistance, le drame, et les trésors de pirates.
