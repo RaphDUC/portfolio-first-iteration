@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/camelcase */
-import { Lang } from './index'
+import type { Lang } from './index'
 
 type TranslationMap = Record<string, string>
 type Translations = Record<Lang, TranslationMap>

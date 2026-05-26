@@ -24,10 +24,10 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 import { setLang } from "@/i18n";
 
-export default Vue.extend({
+export default defineComponent({
   name: "Header",
   methods: {
     setLang,

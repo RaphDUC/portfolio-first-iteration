@@ -12,11 +12,11 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
 import gameProjectsData from "@/data/GameProjectsData.ts";
 
-export default Vue.extend({
+export default defineComponent({
   name: "GameProjects",
   components: {
     ProjectsList,

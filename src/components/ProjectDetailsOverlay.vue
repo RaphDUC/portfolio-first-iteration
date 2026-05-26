@@ -1,26 +1,30 @@
 <template>
-  <transition name="fade">
-    <div v-if="visible">
-      <div class="overlay">
-      </div>
+  <Transition name="fade">
+    <div
+      v-if="visible"
+      class="overlay-wrapper"
+      @click.self="$emit('close')"
+    >
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
-        <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
+        <div @click="$emit('close')" class="dialog-close">
+          <i class="fa fa-times fa-lg fa-fw"></i>
+        </div>
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">{{ $t('close') }}</a>
-        </div>
+            <a @click="$emit('close')" class="dialog-close-button">{{ $t('close') }}</a>
+          </div>
         </div>
       </div>
     </div>
-  </transition>
+  </Transition>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent, watch, onUnmounted } from "vue";
 
-export default Vue.extend({
+export default defineComponent({
   name: "ProjectDetailsOverlay",
   props: {
     visible: Boolean,
@@ -28,29 +32,48 @@ export default Vue.extend({
     title: String,
     htmlContent: String,
   },
+  emits: ['close'],
+  setup(props, { emit }) {
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') emit('close')
+    }
+
+    watch(() => props.visible, (val) => {
+      if (val) {
+        document.body.style.overflow = 'hidden'
+        window.addEventListener('keydown', onKeyDown)
+      } else {
+        document.body.style.overflow = ''
+        window.removeEventListener('keydown', onKeyDown)
+      }
+    })
+
+    onUnmounted(() => {
+      document.body.style.overflow = ''
+      window.removeEventListener('keydown', onKeyDown)
+    })
+  },
 });
 </script>
 
 <style scoped>
-.overlay {
-  background-color: rgba(0,0,0,0.5);
+.overlay-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 10;
-  position:fixed;
-  top:0px;
-  left:0px;
-  right:0px;
-  bottom: 0px;
+  overflow-y: auto;
 }
 
 .dialog {
-  position:absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  position: relative;
   z-index: 11;
   margin: 20px;
   padding-bottom: 10px;
-  color:white;
+  color: white;
 }
 
 iframe {
@@ -58,28 +81,27 @@ iframe {
 }
 
 h1.dialog-title {
-    text-align: center;
-    font-size: 1.3em;
-    margin: 0px;
-    padding: 22px;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 22px;
 }
 
 .dialog-content {
   padding: 20px;
-}
-
-.dialog-content {
   background-color: #fcfcfc;
   color: #696969;
 }
+
 .dialog-close {
   position: absolute;
   top: 20px;
   right: 20px;
-  cursor:pointer;
+  cursor: pointer;
   font-size: 1.2em;
   font-weight: 100;
 }
+
 .dialog-close:hover {
   opacity: 0.6;
 }
@@ -89,17 +111,15 @@ h1.dialog-title {
 }
 
 a.dialog-close-button {
-  cursor:pointer;
+  cursor: pointer;
   font-size: 1.4em;
   display: inline-block;
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .dialog {
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin: 80px auto 40px;
     max-width: 1000px;
   }
 
@@ -111,6 +131,4 @@ a.dialog-close-button {
     padding: 40px;
   }
 }
-
-
 </style>

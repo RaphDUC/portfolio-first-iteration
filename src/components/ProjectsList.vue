@@ -1,12 +1,12 @@
 <template>
     <div>
       <div class="projects-list">
-        <template v-for="project in projects">
-          <div
-            :key="project.id"
-              @click="showDetails(project)"
-              class="project-item"
-              :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+        <div
+          v-for="project in projects"
+          :key="project.id"
+          @click="showDetails(project)"
+          class="project-item"
+          :class="{ 'wide': project.isWide, 'high': project.isHigh }">
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>
             <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
@@ -15,7 +15,6 @@
                 </div>
               </div>
           </div>
-        </template>
       </div>
 
       <ProjectDetailsOverlay
@@ -29,46 +28,41 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent, ref, computed } from "vue";
+import type { PropType } from "vue";
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
 import ProjectData from "@/data/ProjectData.ts";
+import { locale } from "@/i18n";
 
-export default Vue.extend({
+export default defineComponent({
   name: "ProjectsList",
   components: {
     ProjectDetailsOverlay,
   },
   props: {
-    projects: Array
+    projects: { type: Array as PropType<ProjectData[]>, required: true }
   },
-  data: function () {
-    return {
-      showPopup: false,
-      selectedProject: null as ProjectData | null,
-    };
-  },
-  computed: {
-    popupTitle(): string {
-      return (this as any).selectedProject?.name ?? '';
-    },
-    popupColor(): string {
-      return (this as any).selectedProject?.accentColor ?? '';
-    },
-    popupContent(): string {
-      const proj = (this as any).selectedProject as ProjectData | null;
-      if (!proj) return '';
-      return ((this as any).$lang === 'fr' && proj.htmlDescriptionFr)
+  setup() {
+    const showPopup = ref(false)
+    const selectedProject = ref<ProjectData | null>(null)
+
+    const popupTitle = computed(() => selectedProject.value?.name ?? '')
+    const popupColor = computed(() => selectedProject.value?.accentColor ?? '')
+    const popupContent = computed(() => {
+      const proj = selectedProject.value
+      if (!proj) return ''
+      return (locale.lang === 'fr' && proj.htmlDescriptionFr)
         ? proj.htmlDescriptionFr
-        : proj.htmlDescription;
-    },
-  },
-  methods: {
-    showDetails: function (item: ProjectData) {
-      (this as any).selectedProject = item;
-      this.showPopup = true;
-      window.scrollTo(0, 0);
-    },
-  },
+        : proj.htmlDescription
+    })
+
+    function showDetails(item: ProjectData) {
+      selectedProject.value = item
+      showPopup.value = true
+    }
+
+    return { showPopup, selectedProject, popupTitle, popupColor, popupContent, showDetails }
+  }
 });
 </script>
 
@@ -91,8 +85,6 @@ export default Vue.extend({
   transition: all 0.2s;
 }
 .project-item-image:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 

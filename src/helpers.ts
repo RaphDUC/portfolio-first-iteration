@@ -1,13 +1,8 @@
-export default class Helpers {
+export function preloadImages(urls: string[]): void {
+  urls.forEach(preloadImage)
+}
 
-    static preloadImages = (urls: string[]) => {
-        urls.forEach(url => {
-            Helpers.preloadImage(url);
-        });
-    }
-
-    private static preloadImage = (url: string) => {
-        const image = new Image(); 
-        image.src = url; 
-    }
+function preloadImage(url: string): void {
+  const img = new Image()
+  img.src = url
 }

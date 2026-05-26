@@ -1,13 +1,13 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import { locale } from './i18n'
 import { translations } from './i18n/translations'
-import { Lang } from './i18n'
+import type { Lang } from './i18n'
 
-Vue.config.productionTip = false
+const app = createApp(App)
 
-Vue.mixin({
+app.mixin({
   computed: {
     $lang(): Lang {
       return locale.lang
@@ -20,7 +20,4 @@ Vue.mixin({
   },
 })
 
-new Vue({
-  router,
-  render: h => h(App),
-}).$mount('#app')
+app.use(router).mount('#app')

@@ -3,9 +3,9 @@
     <div class="skill-name">{{name}}</div>
 
     <div class="skill-rate">
-      <template v-for="n in 5">
-        <div v-if="n <= rate" class="circle circle-full" :key="`${name}-${n}`"></div>
-        <div v-if="n > rate" class="circle circle-empty" :key="`${name}-${n}`"></div>
+      <template v-for="n in 5" :key="`${name}-${n}`">
+        <div v-if="n <= rate" class="circle circle-full"></div>
+        <div v-else class="circle circle-empty"></div>
       </template>
     </div>
     <div class="clear"></div>
@@ -13,9 +13,9 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 
-export default Vue.extend({
+export default defineComponent({
   name: "SkillRate",
   props: {
     name: String,

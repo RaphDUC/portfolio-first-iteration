@@ -12,19 +12,19 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import { defineComponent } from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
-import Helpers from './helpers';
+import { preloadImages } from './helpers';
 
-export default Vue.extend({
+export default defineComponent({
   name: 'App',
   components: {
     Header, Footer
   },
   mounted() {
     // Preload heavy images or gifs that are used in other pages
-    Helpers.preloadImages([
+    preloadImages([
       "img/projects/project-1-icon.png",
       "img/projects/project-2-icon.png",
       "img/projects/project-3-icon.png"
@@ -108,14 +108,12 @@ h1 {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 0.2s;
-  transition-property: opacity;
-  transition-timing-function: ease;
+  transition: opacity 0.2s ease;
 }
 
-.fade-enter,
-.fade-leave-active {
-  opacity: 0
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 
 </style>
