@@ -4,6 +4,7 @@
         <div
           v-for="(project, index) in projects"
           :key="project.id"
+          :ref="(el) => setCardRef(el, index)"
           @click="openDetails(project)"
           class="project-item"
           :class="{ 'wide': project.isWide, 'high': project.isHigh, 'project-focused': focusedIndex === index }">
@@ -28,13 +29,14 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, computed } from "vue";
+import { defineComponent, ref, computed, watch, onUnmounted } from "vue";
 import type { PropType } from "vue";
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
 import ProjectData from "@/data/ProjectData.ts";
 import { locale } from "@/i18n";
 import { useSoundManager } from "@/composables/useSoundManager";
 import { useGamepad } from "@/composables/useGamepad";
+import { gamepadCardFocused } from "@/composables/useGamepadState";
 
 export default defineComponent({
   name: "ProjectsList",
@@ -49,6 +51,24 @@ export default defineComponent({
     const selectedProject = ref<ProjectData | null>(null)
     const focusedIndex = ref(-1)
     const { play } = useSoundManager()
+
+    // ── Card DOM refs for scrollIntoView ──────────────────────────────────
+    const cardRefs: HTMLElement[] = []
+    function setCardRef(el: unknown, index: number) {
+      if (el instanceof HTMLElement) cardRefs[index] = el
+    }
+
+    // Sync shared state + auto-scroll focused card into view
+    watch(focusedIndex, (idx) => {
+      gamepadCardFocused.value = idx >= 0
+      if (idx >= 0 && cardRefs[idx]) {
+        cardRefs[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+      }
+    })
+
+    onUnmounted(() => {
+      gamepadCardFocused.value = false
+    })
 
     const popupTitle = computed(() => selectedProject.value?.name ?? '')
     const popupColor = computed(() => selectedProject.value?.accentColor ?? '')
@@ -105,7 +125,7 @@ export default defineComponent({
       }
     })
 
-    return { showPopup, selectedProject, focusedIndex, popupTitle, popupColor, popupContent, openDetails, closeDetails }
+    return { showPopup, selectedProject, focusedIndex, popupTitle, popupColor, popupContent, openDetails, closeDetails, setCardRef }
   }
 });
 </script>

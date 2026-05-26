@@ -16,11 +16,15 @@ import { defineComponent } from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import { preloadImages } from './helpers';
+import { useGlobalGamepad } from './composables/useGlobalGamepad';
 
 export default defineComponent({
   name: 'App',
   components: {
     Header, Footer
+  },
+  setup() {
+    useGlobalGamepad()
   },
   mounted() {
     // Preload heavy images or gifs that are used in other pages
@@ -48,6 +52,11 @@ export default defineComponent({
 html, body {
   margin: 0px;
   background-color: @bodyBgColor;
+}
+
+body.gamepad-active,
+body.gamepad-active * {
+  cursor: none !important;
 }
 
 #app {
