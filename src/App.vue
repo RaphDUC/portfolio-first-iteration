@@ -3,7 +3,7 @@
     
     <Header />
     <div class="main">
-      <transition name="fade" mode="out-in">
+      <transition name="scan" mode="out-in">
         <router-view/>
       </transition>
     </div>
@@ -39,6 +39,12 @@ export default defineComponent({
 @import './css/projects.less';
 @import './css/variables.less';
 
+:root {
+  --accent-color: #00e8c8;
+  --accent-dim: rgba(0, 232, 200, 0.12);
+  --border-color: rgba(255, 255, 255, 0.09);
+}
+
 html, body {
   margin: 0px;
   background-color: @bodyBgColor;
@@ -49,6 +55,7 @@ html, body {
   color: @textColor;
 
   font-family: 'Karla', Helvetica, Arial, sans-serif;
+  font-feature-settings: 'kern' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -59,6 +66,9 @@ html, body {
 
 h1, h2, h3, h4, h5 {
   text-align: left;
+  font-family: 'Exo 2', 'Karla', Helvetica, Arial, sans-serif;
+  letter-spacing: 0.04em;
+  font-weight: 200;
 }
 
 a {
@@ -106,14 +116,20 @@ h1 {
   }
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.2s ease;
+.scan-enter-active {
+  animation: scanIn 0.25s ease;
+}
+.scan-leave-active {
+  animation: scanOut 0.18s ease;
 }
 
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
+@keyframes scanIn {
+  0%   { clip-path: inset(0 0 100% 0); opacity: 0; }
+  100% { clip-path: inset(0 0 0% 0);   opacity: 1; }
+}
+@keyframes scanOut {
+  0%   { clip-path: inset(0 0 0%   0); opacity: 1; }
+  100% { clip-path: inset(0 0 100% 0); opacity: 0; }
 }
 
 </style>

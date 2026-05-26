@@ -1,5 +1,5 @@
 <template>
-  <Transition name="fade">
+  <Transition name="boot">
     <div
       v-if="visible"
       class="overlay-wrapper"
@@ -8,12 +8,12 @@
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
         <div @click="$emit('close')" class="dialog-close">
-          <i class="fa fa-times fa-lg fa-fw"></i>
+          <span class="close-label">[ × ]</span>
         </div>
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-            <a @click="$emit('close')" class="dialog-close-button">{{ $t('close') }}</a>
+            <a @click="$emit('close')" class="dialog-close-button">[ {{ $t('close') }} ]</a>
           </div>
         </div>
       </div>
@@ -89,21 +89,29 @@ h1.dialog-title {
 
 .dialog-content {
   padding: 20px;
-  background-color: #fcfcfc;
-  color: #696969;
+  background-color: #141416;
+  color: #c8c8d4;
 }
 
 .dialog-close {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 18px;
+  right: 18px;
   cursor: pointer;
-  font-size: 1.2em;
-  font-weight: 100;
+  transition: opacity 0.15s, color 0.15s;
+  color: white;
+  opacity: 0.7;
+}
+
+.close-label {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1em;
+  letter-spacing: 0.04em;
 }
 
 .dialog-close:hover {
-  opacity: 0.6;
+  opacity: 1;
+  color: #00e8c8;
 }
 
 .dialog-bottom {
@@ -112,9 +120,19 @@ h1.dialog-title {
 
 a.dialog-close-button {
   cursor: pointer;
-  font-size: 1.4em;
+  font-size: 1.2em;
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 0.06em;
   display: inline-block;
   margin: 0 auto;
+  opacity: 0.6;
+  transition: opacity 0.15s, color 0.15s;
+  color: #c8c8d4;
+}
+
+a.dialog-close-button:hover {
+  opacity: 1;
+  color: #00e8c8;
 }
 
 @media only screen and (min-width: 620px) {
@@ -130,5 +148,28 @@ a.dialog-close-button {
   .dialog-content {
     padding: 40px;
   }
+}
+
+.boot-enter-active {
+  transition: opacity 0.2s ease;
+}
+.boot-leave-active {
+  transition: opacity 0.15s ease;
+}
+.boot-enter-from,
+.boot-leave-to {
+  opacity: 0;
+}
+
+.boot-enter-active .dialog {
+  animation: bootDraw 0.25s ease-out;
+}
+.boot-leave-active .dialog {
+  animation: bootDraw 0.15s ease-in reverse;
+}
+
+@keyframes bootDraw {
+  from { clip-path: inset(0 0 100% 0); }
+  to   { clip-path: inset(0 0 0% 0); }
 }
 </style>
