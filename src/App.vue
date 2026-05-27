@@ -29,7 +29,7 @@ export default defineComponent({
 
     const router = useRouter()
     const route = useRoute()
-    const progressWidth = ref(0)
+    const progressWidth = ref(100)
     const progressVisible = ref(false)
 
     const routeLabels: Record<string, string> = {
@@ -45,10 +45,7 @@ export default defineComponent({
     const h1CssLabel = computed(() => {
       const label = routeLabels[String(route.name ?? '')] ?? 'SYS'
       const base = `// SYS.${label}`
-      if (progressVisible.value) {
-        return `"${base}.LOAD()=${Math.round(progressWidth.value)}%"`
-      }
-      return `"${base}"`
+      return `"${base}.LOAD()=${Math.round(progressWidth.value)}%"`
     })
 
     router.beforeEach(() => {
@@ -214,7 +211,7 @@ h1::after {
   position: fixed;
   top: 0;
   left: 0;
-  height: 2px;
+  height: 6px;
   background: var(--accent-color);
   box-shadow: 0 0 8px var(--accent-color);
   transition: width 0.3s ease, opacity 0.4s ease;
