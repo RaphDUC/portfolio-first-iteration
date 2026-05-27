@@ -1,4 +1,286 @@
-import{P as e,a as t}from"./ProjectData-BfvgszOl.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-CwbqFVDP.js";const u=[new e("project-PAW","Pawater","img/projects/project-PAW-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-Dj8uycpa.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-CzledYJq.js";const u=[new e("project-DFBT","Death Fel' Ball Tournament","img/projects/project-DFBT-icon.png",`<div class="paragraph">
+      <strong>Death Fel' Ball Tournament</strong> is an ultra-fast-paced 2.5D fighting-sports game built with Unreal Engine 5, created during the Montreal Game Jam (May 2026) in 48 hours.
+      <br/>In a post-apocalyptic world, the most formidable feline warriors clash 1v1 in a tournament to the death — or rather, to nine deaths. Their weapon: a kinetic ball that bounces and accelerates exponentially with every hit.
+      <br/>No health bar — only a <strong>percentage gauge</strong>: the higher it climbs, the further the next impact launches you off the arena. Last cat standing wins the can of milk.
+      <br/><em>When Lethal League meets Super Smash Bros.</em>
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li>All programming and Tech Art — ball physics, percentage knock-back system, directional strikes (kick/headbutt/punch)</li>
+        <li>Double jump, dash, arena boundary logic, respawn + invincibility frames, timer/KO victory conditions</li>
+        <li>All 3D models, VFX, and shaders — created from scratch during the jam</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Team <strong>TZB (Tabourets Zigotos Bancaux)</strong>:
+      <ul>
+        <li><strong>JEJE</strong> — 3D Art, Animations</li>
+        <li><strong>Lafpax</strong> — 2D Art</li>
+        <li><strong>Legende_Urbaine</strong> — Music, SFX (royalty-free, remixed in Audacity)</li>
+        <li><strong>WLHib (me)</strong> — Programming, Tech Art</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-DFBT-A.png" alt="Death Fel' Ball Tournament — Arena" />
+      <img class="game-screenshot" src="img/projects/project-DFBT-B.png" alt="Death Fel' Ball Tournament — Gameplay" />
+    </div>`,"#8b2200",!1,!1,`<div class="paragraph">
+      <strong>Death Fel' Ball Tournament</strong> est un jeu de sport/combat 2.5D ultra-rapide réalisé sur Unreal Engine 5, créé lors de la Montreal Game Jam (mai 2026) en 48 heures.
+      <br/>Dans un monde post-apocalyptique, les plus formidables guerriers félins s'affrontent en 1v1 dans un tournoi à mort — ou plutôt à neuf morts. Leur arme : une balle cinétique qui rebondit et s'accélère exponentiellement à chaque frappe.
+      <br/>Pas de barre de vie — seulement une <strong>jauge de pourcentage</strong> : plus elle monte, plus la prochaine frappe vous propulse hors de l'arène. Dernier chat debout remporte la boîte de lait.
+      <br/><em>Quand Lethal League rencontre Super Smash Bros.</em>
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li>Toute la programmation et le Tech Art — physique de la balle, système de knock-back basé sur le pourcentage, frappes directionnelles (coup de pied/tête/poing)</li>
+        <li>Double saut, dash, logique des limites d'arène, respawn + frames d'invincibilité, conditions de victoire (timer/KO)</li>
+        <li>Tous les modèles 3D, VFX et shaders — créés from scratch pendant la jam</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Équipe <strong>TZB (Tabourets Zigotos Bancaux)</strong> :
+      <ul>
+        <li><strong>JEJE</strong> — Art 3D, Animations</li>
+        <li><strong>Lafpax</strong> — Art 2D</li>
+        <li><strong>Legende_Urbaine</strong> — Musique, SFX (libres de droits, remixés sur Audacity)</li>
+        <li><strong>WLHib (moi)</strong> — Programmation, Tech Art</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-DFBT-A.png" alt="Death Fel' Ball Tournament — Arène" />
+      <img class="game-screenshot" src="img/projects/project-DFBT-B.png" alt="Death Fel' Ball Tournament — Gameplay" />
+    </div>`),new e("project-ATS","Among the Shades","img/projects/project-ATS-icon.png",`<div class="paragraph">
+      <strong>Among the Shades</strong> is a short third-person stealth adventure inspired by <em>Limbo</em> and <em>Inside</em>, built with Unreal Engine 5 for the WonderJam Winter 2026 (March 2026).
+      <br/>A young man washed ashore on a beach must traverse an island to its center — avoiding or destroying hostile specters along the way. By picking up a pair of lost glasses, he can shift his vision to pacify specters of a matching color or bypass otherwise impassable obstacles.
+    </div>
+    <div class="paragraph">
+      Jam themes: <em>Unexpected Ending</em>, <em>Look at my new outfit! – Player Customization</em>, <em>Maniac – Horror/Hallucinations</em>.
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li>Game Design, Programming, Tech Art (including cel-shading), Sound Design, Level Design</li>
+        <li>Some 3D props and assets</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Team:
+      <ul>
+        <li><strong>WLHib (me)</strong> — Game Design, Programming, Tech Art (cel-shading), Sound Design, Level Design, some 3D props</li>
+        <li><strong>CTXD</strong> — Game Design, Programming, Level Design</li>
+        <li><strong>Nyoukki</strong> — Game Design, Programming, Level Design, Tech Art</li>
+        <li><strong>Jeje</strong> — 3D Art, Character Design, Cutscene Direction</li>
+        <li><strong>Lafpax</strong> — 2D Art</li>
+        <li><strong>Légende Urbaine</strong> — Music</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-ATS-A.png" alt="Among the Shades — Island Traversal" />
+      <img class="game-screenshot" src="img/projects/project-ATS-B.png" alt="Among the Shades — Specter Vision" />
+    </div>`,"#3d1a5e",!1,!1,`<div class="paragraph">
+      <strong>Among the Shades</strong> est un jeu d'aventure furtif court à la troisième personne inspiré de <em>Limbo</em> et <em>Inside</em>, réalisé sur Unreal Engine 5 pour la WonderJam Hiver 2026 (mars 2026).
+      <br/>Un jeune homme échoué sur une plage doit traverser une île jusqu'à son centre — en évitant ou détruisant des spectres menaçants. En récupérant des lunettes égarées, il peut changer de vision pour pacifier des spectres d'une couleur correspondante ou franchir des obstacles autrement infranchissables.
+    </div>
+    <div class="paragraph">
+      Styles de la jam : <em>Fin inattendue</em>, <em>T'as vu ma nouvelle tenue ? – Personnalisation du joueur</em>, <em>Maniaque – Fou/Horreur/Hallucinations</em>.
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li>Game Design, Programmation, Tech Art (dont le cel-shading), Sound Design, Level Design</li>
+        <li>Certains assets/props 3D</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Équipe :
+      <ul>
+        <li><strong>WLHib (moi)</strong> — Game Design, Programmation, Tech Art (cel-shading), Sound Design, Level Design, certains props 3D</li>
+        <li><strong>CTXD</strong> — Game Design, Programmation, Level Design</li>
+        <li><strong>Nyoukki</strong> — Game Design, Programmation, Level Design, Tech Art</li>
+        <li><strong>Jeje</strong> — Art 3D, Character Design, Direction des cutscenes</li>
+        <li><strong>Lafpax</strong> — Art 2D</li>
+        <li><strong>Légende Urbaine</strong> — Musique</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-ATS-A.png" alt="Among the Shades — Traversée de l'île" />
+      <img class="game-screenshot" src="img/projects/project-ATS-B.png" alt="Among the Shades — Vision des spectres" />
+    </div>`),new e("project-KA","Kill.Automaton","img/projects/project-KA-icon.png",`<div class="paragraph">
+      <strong>Kill.Automaton</strong> is a stealth-action game built with Unity, created for the Video Game AI course (March–April 2026) by a team of 6.
+      <br/>In a minimalist futuristic setting, the player embodies a murderous robot acting as a true predator — with extraordinary agility allowing it to climb any surface, including walls and ceilings. The objective: eliminate more than 50% of the guards trying to escape the building floor.
+      <br/>Inverting the usual stealth formula, the game bets on a <strong>power fantasy</strong>: the player doesn't hide to survive — they wait in the shadows to strike. Guards break from predictable patrol routes, controlled by a hybrid FSM/Reinforcement Learning AI that makes them flee unpredictably once they spot the player.
+    </div>
+    <div class="paragraph">
+      AI features:
+      <ul>
+        <li><strong>Hybrid FSM + ML-Agents (Unity / PyTorch)</strong> — patrol, shoot (FOV-based detection), and flee states</li>
+        <li>Guards learn to flee optimally toward the exit while avoiding obstacles (trained via reinforcement learning)</li>
+        <li><strong>Text-to-Speech (Kokoro + Sentis)</strong> — situational guard dialogue from YAML files, pre-generated to avoid real-time performance overhead</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      My contributions (17%):
+      <ul>
+        <li>Assistance with ML-Agent training</li>
+        <li>UI creation and integration</li>
+        <li>VFX and SFX</li>
+        <li>All 3D assets — player character, enemies, props, materials</li>
+        <li>Character animations (partially using Mixamo)</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-KA-A.png" alt="Kill.Automaton — Stealth Gameplay" />
+      <img class="game-screenshot" src="img/projects/project-KA-B.png" alt="Kill.Automaton — AI Guard Behavior" />
+    </div>`,"#1a3a2a",!1,!1,`<div class="paragraph">
+      <strong>Kill.Automaton</strong> est un jeu d'infiltration-action réalisé sous Unity, créé dans le cadre du cours d'Intelligence Artificielle en jeu vidéo (mars–avril 2026) en équipe de 6.
+      <br/>Dans un cadre futuriste minimaliste, le joueur incarne un robot meurtrier agissant comme un véritable prédateur — d'une agilité hors pair lui permettant de grimper sur toute surface, y compris les murs et le plafond. Objectif : éliminer plus de 50 % des gardes cherchant à s'échapper de l'étage.
+      <br/>Inversant la formule habituelle de l'infiltration, le jeu mise sur une <strong>power fantasy</strong> : le joueur ne se cache pas pour survivre — il attend dans l'ombre pour frapper. Les gardes sortent de rondes prévisibles, contrôlés par une IA hybride FSM/Apprentissage par Renforcement qui les rend imprévisibles une fois le joueur repéré.
+    </div>
+    <div class="paragraph">
+      Fonctionnalités IA :
+      <ul>
+        <li><strong>Architecture hybride FSM + ML-Agents (Unity / PyTorch)</strong> — états de patrouille, de tir (détection via FOV) et de fuite</li>
+        <li>Les gardes apprennent à fuir de manière optimale vers la sortie tout en évitant les obstacles (entraînement par renforcement)</li>
+        <li><strong>Text-to-Speech (Kokoro + Sentis)</strong> — dialogues situationnels des gardes depuis des fichiers YAML, pré-générés pour éviter la latence temps réel</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Mes contributions (17 %) :
+      <ul>
+        <li>Aide à l'entraînement des ML-Agents</li>
+        <li>Création et intégration de l'UI</li>
+        <li>VFX et SFX</li>
+        <li>Création de tous les assets 3D — personnage joueur, ennemis, props, matériaux</li>
+        <li>Animations des personnages (en partie avec Mixamo)</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-KA-A.png" alt="Kill.Automaton — Gameplay infiltration" />
+      <img class="game-screenshot" src="img/projects/project-KA-B.png" alt="Kill.Automaton — Comportement IA des gardes" />
+    </div>`),new e("project-LJ","Lady Jane: Extraordinary Thief","img/projects/project-LJ-icon.png",`<div class="paragraph">
+      <strong>Lady Jane: Extraordinary Thief</strong> is a 3D stealth-platformer built with Unreal Engine 5, created by a team of 6 from February to April 2026.
+      <br/>In 1987 England, Lady Jane Hawthorne — a respected high-society lady — has lost her entire inheritance (her late father's prestigious art collection) to her own family upon his death. She has no choice but to reclaim it, aided by her faithful friend Jasper Campbell. A lady above all else, she refuses to hurt anyone — she must rely solely on intelligence and discretion.
+    </div>
+    <div class="paragraph">
+      The art direction targets a <strong>high-contrast cel-shaded comic-book aesthetic</strong> — inspired by <em>Hellboy: Web of Wyrd</em>, <em>XIII</em>, <em>Rythm Thief</em>, and <em>Carmen Sandiego (2019)</em> — with cartoon proportions and elegant character silhouettes. A custom Material enforces bold ink-line outlines and flat shadow passes to maximize readability for stealth gameplay.
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li><strong>Tech Art</strong> — cel-shading material, ink-line outlines, simplified shadow pass for stealth readability</li>
+        <li>3D modeling of nearly all in-game assets</li>
+        <li>Full character creation and animations — Lady Jane and all guards</li>
+        <li>Menu UI design and implementation</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-LJ-A.png" alt="Lady Jane — Stealth Gameplay" />
+      <img class="game-screenshot" src="img/projects/project-LJ-B.png" alt="Lady Jane — Art Direction" />
+    </div>`,"#6e4a0e",!1,!1,`<div class="paragraph">
+      <strong>Lady Jane : Voleuse extraordinaire</strong> est un jeu de plateforme-infiltration 3D réalisé sur Unreal Engine 5, créé en équipe de 6 de février à avril 2026.
+      <br/>En Angleterre en 1987, Lady Jane Hawthorne — dame respectée de la haute société — a perdu l'intégralité de son héritage (la prestigieuse collection d'art de son défunt père) au profit de sa propre famille à son décès. Elle n'a d'autre choix que de la récupérer, aidée de son fidèle ami Jasper Campbell. Lady avant tout, elle refuse de blesser qui que ce soit — elle doit s'en remettre à l'intelligence et à la discrétion.
+    </div>
+    <div class="paragraph">
+      La direction artistique vise une <strong>esthétique cel-shading comic-book très contrastée</strong> — inspirée par <em>Hellboy: Web of Wyrd</em>, <em>XIII</em>, <em>Rythm Thief</em> et <em>Carmen Sandiego (2019)</em> — avec des proportions cartoon et des silhouettes de personnages élégantes. Un Material personnalisé impose des contours noirs marqués (ink lines) et une passe d'ombres aplaties pour maximiser la lisibilité du gameplay d'infiltration.
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li><strong>Tech Art</strong> — material cel-shading, contours noirs (ink lines), passe d'ombre simplifiée pour la lisibilité gameplay</li>
+        <li>Modélisation 3D de la quasi-totalité des assets du jeu</li>
+        <li>Création complète des personnages et de toutes leurs animations — Lady Jane et tous les gardes</li>
+        <li>Design et intégration de l'UI des menus</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-LJ-A.png" alt="Lady Jane — Gameplay infiltration" />
+      <img class="game-screenshot" src="img/projects/project-LJ-B.png" alt="Lady Jane — Direction artistique" />
+    </div>`),new e("project-VRSUB","VR Futuristic Submarine","img/projects/project-VRSUB-icon.png",`<div class="paragraph">
+      <strong>VR Futuristic Submarine</strong> is an immersive VR experience built with Unreal Engine 5, created by a team of 3 over 3 weeks (March–April 2026) for the VR course.
+      <br/>The player embodies the pilot of a windowless submarine — navigation is entirely "blind", relying solely on a <strong>holographic topographic map</strong>. A miniature red submarine model represents the player's position; green blinking beacons mark the checkpoint route to follow.
+      <br/>Inspired by a Y2K chrome aesthetic, the cockpit features fully interactive controls: throttle lever, rudder, ballast depth slider, pressure lever, oxygen valve — all feeding live gauges and digital readouts.
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li><strong>Holographic map</strong> — full programming, mesh instantiation optimized with HLOD, and custom holographic material</li>
+        <li>Game loop programming (checkpoint system, O2 and pressure drain over time, lose/respawn conditions)</li>
+        <li>Creation of all 3D models in the project</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Additional features: color-coded AR HUD alert system (green/yellow/orange/red) for oxygen and pressure levels; checkpoint beacon save system.
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-VRSUB-A.png" alt="VR Submarine — Cockpit" />
+      <img class="game-screenshot" src="img/projects/project-VRSUB-B.png" alt="VR Submarine — Holographic Map" />
+    </div>`,"#1a5a7a",!1,!1,`<div class="paragraph">
+      <strong>VR Futuristic Submarine</strong> est une expérience VR immersive réalisée sur Unreal Engine 5, créée en équipe de 3 sur 3 semaines (mars–avril 2026) dans le cadre du cours de VR.
+      <br/>Le joueur incarne le pilote d'un sous-marin entièrement fermé, sans fenêtres — la navigation est entièrement "à l'aveugle", s'appuyant uniquement sur une <strong>carte holographique topographique</strong>. Un mini-modèle rouge du sous-marin symbolise la position du joueur ; des balises vertes clignotantes indiquent le parcours de checkpoints à suivre.
+      <br/>Inspiré d'une esthétique chrome Y2K, le cockpit dispose de commandes entièrement interactives : levier d'accélération, gouvernail, slider de ballasts, levier de pression, valve d'oxygène — alimentant jauges et écrans numériques en temps réel.
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li><strong>Carte holographique</strong> — programmation complète, instanciation de meshes optimisée via HLOD, et material holographique personnalisé</li>
+        <li>Programmation de la game loop (système de checkpoints, décroissance O2 et pression, conditions de défaite/respawn)</li>
+        <li>Création de l'intégralité des modèles 3D du projet</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Fonctionnalités supplémentaires : système d'alertes HUD AR avec code couleur (vert/jaune/orange/rouge) pour l'oxygène et la pression ; système de sauvegarde par balises-checkpoints.
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-VRSUB-A.png" alt="VR Sous-marin — Cockpit" />
+      <img class="game-screenshot" src="img/projects/project-VRSUB-B.png" alt="VR Sous-marin — Carte holographique" />
+    </div>`),new e("project-OFBS","openFrameworks Ball Shooter","img/projects/project-OFBS-icon.png",`<div class="paragraph">
+      <strong>openFrameworks Ball Shooter</strong> is a custom physics engine built with openFrameworks (C++) by a team of 4 from November to December 2025, as part of the Mathematics &amp; Physics for Video Games course.
+      <br/>A first-person game on a flat plane where the player fires projectiles of varying masses, shapes, and densities at targets. The engine evolved from a kinematic simulator to a full <strong>dynamic rigid body engine</strong> with collision detection and impulse-based resolution.
+    </div>
+    <div class="paragraph">
+      Engine architecture:
+      <ul>
+        <li><strong>Broad Phase</strong> — dynamic <strong>Octree</strong> (recursive subdivision, BoundingSphere tests, viable O(N²) complexity)</li>
+        <li><strong>Narrow Phase</strong> — Sphere-Sphere, Sphere-Plane, Box-Plane; preliminary Box-Box via <strong>SAT (Separating Axis Theorem)</strong></li>
+        <li><strong>Impulse-based contact resolution</strong> — relative velocity at contact point, restitution coefficient, inverse inertia tensors; Baumgarte positional correction to prevent jitter</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      My main contributions:
+      <ul>
+        <li>Octree broad phase (OctBox, BoundingSphere, recursive subdivision, findAllIntersections)</li>
+        <li>FPS character controller and projectile launch system (<code>ofApp.cpp</code>)</li>
+        <li>Integration of the physics update loop</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-OFBS-A.png" alt="Ball Shooter — Physics Simulation" />
+      <img class="game-screenshot" src="img/projects/project-OFBS-B.png" alt="Ball Shooter — Octree Debug View" />
+    </div>`,"#1e3a5f",!1,!1,`<div class="paragraph">
+      <strong>openFrameworks Ball Shooter</strong> est un moteur physique personnalisé réalisé avec openFrameworks (C++) en équipe de 4 de novembre à décembre 2025, dans le cadre du cours de Mathématiques et Physiques pour le Jeu Vidéo.
+      <br/>Un jeu à la première personne sur un plan où le joueur tire des projectiles de masses, formes et densités variées sur des cibles. Le moteur a évolué d'un simulateur cinématique vers un <strong>moteur dynamique de corps rigides</strong> capable de gérer les collisions et contacts entre corps.
+    </div>
+    <div class="paragraph">
+      Architecture du moteur :
+      <ul>
+        <li><strong>Broad Phase</strong> — <strong>Octree</strong> dynamique (subdivision récursive, tests BoundingSphere, complexité O(N²) viable)</li>
+        <li><strong>Narrow Phase</strong> — Sphère-Sphère, Sphère-Plan, Boîte-Plan ; Boîte-Boîte préliminaire via <strong>SAT (Séparateur d'Axes)</strong></li>
+        <li><strong>Résolution par impulsions</strong> — impulsion normale depuis la vélocité relative au point de contact, coefficient de restitution, tenseurs d'inertie inverses ; correction positionnelle de Baumgarte pour minimiser le jittering</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Mes contributions principales :
+      <ul>
+        <li>Broad phase Octree (OctBox, BoundingSphere, subdivision récursive, findAllIntersections)</li>
+        <li>Character controller FPS et système de lancer de projectiles (<code>ofApp.cpp</code>)</li>
+        <li>Intégration de la boucle de mise à jour physique</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-OFBS-A.png" alt="Ball Shooter — Simulation physique" />
+      <img class="game-screenshot" src="img/projects/project-OFBS-B.png" alt="Ball Shooter — Vue debug Octree" />
+    </div>`),new e("project-PAW","Pawater","img/projects/project-PAW-icon.png",`<div class="paragraph">
       <strong>Pawater</strong> is a solo fast-paced 3D platformer concept built with Unreal Engine 5, developed from November to December 2025.
       <br/>Typhy, a young anthropomorphic cat, is called to adventure to face his fear of water — powered by the ability to surf and grind on water surfaces and waves, as well as slide and wall-run on any terrain.
       <br/>Set across tropical island obstacle courses, the game channels a <strong>Dreamcast / Y2K aesthetic</strong> inspired by early Sonic Adventure, with a focus on speed, fluidity, and momentum. An ever-increasing FOV and linear level design reward players who pick up speed and find shortcuts — never letting them stop.
