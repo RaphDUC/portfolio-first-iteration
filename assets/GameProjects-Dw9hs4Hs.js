@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-C2K2M07U.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-D_HHaS0F.js";const u=[new e("project-PAW","Pawater","img/projects/project-PAW-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-BfvgszOl.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-CwbqFVDP.js";const u=[new e("project-PAW","Pawater","img/projects/project-PAW-icon.png",`<div class="paragraph">
       <strong>Pawater</strong> is a solo fast-paced 3D platformer concept built with Unreal Engine 5, developed from November to December 2025.
       <br/>Typhy, a young anthropomorphic cat, is called to adventure to face his fear of water — powered by the ability to surf and grind on water surfaces and waves, as well as slide and wall-run on any terrain.
       <br/>Set across tropical island obstacle courses, the game channels a <strong>Dreamcast / Y2K aesthetic</strong> inspired by early Sonic Adventure, with a focus on speed, fluidity, and momentum. An ever-increasing FOV and linear level design reward players who pick up speed and find shortcuts — never letting them stop.
