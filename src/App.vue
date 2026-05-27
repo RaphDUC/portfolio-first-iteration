@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{ 'is-loading': progressVisible }" :style="{ '--h1-label': h1CssLabel }">
     <div class="route-progress" :style="{ width: progressWidth + '%', opacity: progressVisible ? 1 : 0 }"></div>
     <Header />
     <div class="main">
@@ -12,12 +12,12 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, computed } from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import { preloadImages } from './helpers';
 import { useGlobalGamepad } from './composables/useGlobalGamepad';
-import { useRouter } from 'vue-router';
+import { useRouter, useRoute } from 'vue-router';
 
 export default defineComponent({
   name: 'App',
@@ -28,8 +28,28 @@ export default defineComponent({
     useGlobalGamepad()
 
     const router = useRouter()
+    const route = useRoute()
     const progressWidth = ref(0)
     const progressVisible = ref(false)
+
+    const routeLabels: Record<string, string> = {
+      Root: 'ABOUT',
+      Resume: 'RESUME',
+      GameProjects: 'GAMES',
+      OtherProjects: 'OTHERS',
+      InternshipProjects: 'INTERN',
+      Contact: 'CONTACT',
+      NotFound: '404'
+    }
+
+    const h1CssLabel = computed(() => {
+      const label = routeLabels[String(route.name ?? '')] ?? 'SYS'
+      const base = `// SYS.${label}`
+      if (progressVisible.value) {
+        return `"${base}.LOAD()=${Math.round(progressWidth.value)}%"`
+      }
+      return `"${base}"`
+    })
 
     router.beforeEach(() => {
       progressWidth.value = 0
@@ -43,7 +63,7 @@ export default defineComponent({
       setTimeout(() => { progressVisible.value = false }, 400)
     })
 
-    return { progressWidth, progressVisible }
+    return { progressWidth, progressVisible, h1CssLabel }
   },
   mounted() {
     // Preload heavy images or gifs that are used in other pages
@@ -120,11 +140,11 @@ h1 {
 }
 
 h1:hover {
-  text-shadow: -2px 0 rgba(255, 0, 80, 0.4), 2px 0 rgba(0, 232, 200, 0.4);
+  text-shadow: 0 0 18px rgba(0, 232, 200, 0.45);
 }
 
 h1::before {
-  content: '// SYS';
+  content: var(--h1-label, '// SYS');
   display: block;
   font-family: 'Share Tech Mono', monospace;
   font-size: 0.28em;
@@ -204,6 +224,15 @@ h1::after {
 
 @keyframes h1-underline {
   to { width: 48px; }
+}
+
+.is-loading .main h1 {
+  animation: h1-blink 0.5s step-end infinite;
+}
+
+@keyframes h1-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.1; }
 }
 
 </style>

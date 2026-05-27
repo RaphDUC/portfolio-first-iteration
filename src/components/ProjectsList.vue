@@ -221,6 +221,11 @@ export default defineComponent({
   opacity: 0.65;
 }
 
+.project-item:hover .title-text::before,
+.project-item.project-focused .title-text::before {
+  animation: arrow-blink 0.55s step-end infinite;
+}
+
 @media only screen and (min-width: 620px){
   .projects-list {
     max-width: 900px;
@@ -242,6 +247,11 @@ export default defineComponent({
   .high {
     grid-row-end: span 2;
   }
+}
+
+@keyframes arrow-blink {
+  0%, 100% { opacity: 0.65; }
+  50% { opacity: 0; }
 }
 
 </style>
