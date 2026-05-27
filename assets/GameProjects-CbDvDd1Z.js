@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-Dj8uycpa.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-CzledYJq.js";const u=[new e("project-DFBT","Death Fel' Ball Tournament","img/projects/project-DFBT-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-CEp8zH7B.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-BQhThc3Y.js";const u=[new e("project-DFBT","Death Fel' Ball Tournament","img/projects/project-DFBT-icon.png",`<div class="paragraph">
       <strong>Death Fel' Ball Tournament</strong> is an ultra-fast-paced 2.5D fighting-sports game built with Unreal Engine 5, created during the Montreal Game Jam (May 2026) in 48 hours.
       <br/>In a post-apocalyptic world, the most formidable feline warriors clash 1v1 in a tournament to the death — or rather, to nine deaths. Their weapon: a kinetic ball that bounces and accelerates exponentially with every hit.
       <br/>No health bar — only a <strong>percentage gauge</strong>: the higher it climbs, the further the next impact launches you off the arena. Last cat standing wins the can of milk.
@@ -552,6 +552,9 @@ import{P as e,a as t}from"./ProjectData-Dj8uycpa.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-GOAT-A.png" alt="Demo Overview 1" />
       <img class="game-screenshot" src="img/projects/project-GOAT-B.png" alt="Demo Overview 2" />
+    </div>
+    <div class="paragraph">
+      Special thanks to <a href="https://symphocat.bandcamp.com/" target="_blank">SymphoCat</a> for kindly allowing us to use and showcase music from their albums <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-1" target="_blank">Revival Renaissance Rebirth Act 1</a> and <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-2" target="_blank">Act 2</a>.
     </div>`,"#c43916",!1,!1,`<div class="paragraph">
       <strong>GoatBoi</strong> est un prototype de jeu de plateforme 3D réalisé en moins d'un mois avec Unreal Engine dans le cadre d'un examen final.
       <br/>En groupe de six, nous nous sommes inspirés de la façon dont les jeux de plateforme des années 2000 mêlaient plusieurs mécaniques à leurs fonctionnalités principales.
@@ -574,6 +577,9 @@ import{P as e,a as t}from"./ProjectData-Dj8uycpa.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-GOAT-A.png" alt="Aperçu 1" />
       <img class="game-screenshot" src="img/projects/project-GOAT-B.png" alt="Aperçu 2" />
+    </div>
+    <div class="paragraph">
+      Remerciements à <a href="https://symphocat.bandcamp.com/" target="_blank">SymphoCat</a> pour nous avoir généreusement autorisés à utiliser et présenter les musiques de ses albums <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-1" target="_blank">Revival Renaissance Rebirth Act 1</a> et <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-2" target="_blank">Act 2</a>.
     </div>`),new e("project-05","Sois le Vent","img/projects/project-WIND-icon.png",`<div class="paragraph">
       <strong>Sois le Vent</strong> ("Be the Wind" in French) is a contemplative third-person prototype made with Unreal Engine 5.
       <br/>Although I built it alone, it was part of a group project — a Game Design report answering the question:
