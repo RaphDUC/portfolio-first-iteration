@@ -629,6 +629,9 @@ export default [
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-GOAT-A.png" alt="Demo Overview 1" />
       <img class="game-screenshot" src="img/projects/project-GOAT-B.png" alt="Demo Overview 2" />
+    </div>
+    <div class="paragraph">
+      Special thanks to <a href="https://symphocat.bandcamp.com/" target="_blank">SymphoCat</a> for kindly allowing us to use and showcase music from their albums <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-1" target="_blank">Revival Renaissance Rebirth Act 1</a> and <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-2" target="_blank">Act 2</a>.
     </div>`,
     "#c43916", false, false,
     `<div class="paragraph">
@@ -653,6 +656,9 @@ export default [
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-GOAT-A.png" alt="Aperçu 1" />
       <img class="game-screenshot" src="img/projects/project-GOAT-B.png" alt="Aperçu 2" />
+    </div>
+    <div class="paragraph">
+      Remerciements à <a href="https://symphocat.bandcamp.com/" target="_blank">SymphoCat</a> pour nous avoir généreusement autorisés à utiliser et présenter les musiques de ses albums <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-1" target="_blank">Revival Renaissance Rebirth Act 1</a> et <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-2" target="_blank">Act 2</a>.
     </div>`
   ),
   new ProjectData(
