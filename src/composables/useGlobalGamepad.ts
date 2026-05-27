@@ -55,19 +55,23 @@ export function useGlobalGamepad() {
       const anyInput = gp.axes.some(a => Math.abs(a) > 0.12) || gp.buttons.some(b => b.pressed)
       if (anyInput) setGamepadMode(true)
 
-      // ── LT / RT (buttons 6/7): cycle header routes ──────────────────────
+      // ── LT / RT (buttons 6/7) or LB/RB (buttons 4/5) : cycle header routes ──────────────────────
       const lt = gp.buttons[6]?.pressed ?? false
       const rt = gp.buttons[7]?.pressed ?? false
-      if (lt && !prev.lt) {
+      const lb = gp.buttons[4]?.pressed ?? false
+      const rb = gp.buttons[5]?.pressed ?? false
+      if (lt && !prev.lt || lb && !prev.lb) {
         router.push(ROUTES[(routeIndex() - 1 + ROUTES.length) % ROUTES.length])
         play('navigate')
       }
-      if (rt && !prev.rt) {
+      if (rt && !prev.rt || rb && !prev.rb) {
         router.push(ROUTES[(routeIndex() + 1) % ROUTES.length])
         play('navigate')
       }
       prev.lt = lt
       prev.rt = rt
+      prev.lb = lb
+      prev.rb = rb
 
       // ── Right stick Y (axes[3]): analog page scroll (always active) ──────
       const rsY = gp.axes[3] ?? 0
