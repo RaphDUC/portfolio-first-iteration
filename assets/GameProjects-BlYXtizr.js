@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-CEp8zH7B.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-BQhThc3Y.js";const u=[new e("project-DFBT","Death Fel' Ball Tournament","img/projects/project-DFBT-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-BrrzDu1e.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-Dg_BPBvW.js";const u=[new e("project-DFBT","Death Fel' Ball Tournament","img/projects/project-DFBT-icon.png",`<div class="paragraph">
       <strong>Death Fel' Ball Tournament</strong> is an ultra-fast-paced 2.5D fighting-sports game built with Unreal Engine 5, created during the Montreal Game Jam (May 2026) in 48 hours.
       <br/>In a post-apocalyptic world, the most formidable feline warriors clash 1v1 in a tournament to the death — or rather, to nine deaths. Their weapon: a kinetic ball that bounces and accelerates exponentially with every hit.
       <br/>No health bar — only a <strong>percentage gauge</strong>: the higher it climbs, the further the next impact launches you off the arena. Last cat standing wins the can of milk.
