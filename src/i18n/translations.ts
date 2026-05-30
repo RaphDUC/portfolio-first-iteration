@@ -84,6 +84,10 @@ export const translations: Translations = {
     hobby_y2k: 'I am deeply fond of the aesthetic born at the turn of the millennium — the way the late 90s and early 2000s imagined the future. On the urban side: Jet Set Radio\'s vibrant cel-shaded streets. On the sleek and digital side: Wipeout\'s iconic Designers Republic-crafted interfaces, Rez\'s synaesthetic abstraction, Ace Combat 3: Electrosphere\'s near-future UI, Zone of the Enders\' sharp mecha design, and F-Zero GX\'s hyperspeed visual language. The music side of this mood is equally dear: jungle and liquid drum & bass.',
     hobby_aviation_title: 'I 🛩️ Aviation',
     hobby_aviation: 'A lifelong passion: I have loved spotting and identifying airline liveries since childhood, and I enjoy reading about aircraft design and engineering. I once dreamed of becoming a pilot — and now I have Flight Simulator and the machine to run it. That counts, right?',
+    hobby_hardware_title: 'I 🖥️ PC Hardware',
+    hobby_hardware_1: 'PC building. Hardware advice on various forums and Discord community servers (KristenGWD, JeanBaptisteShow,…)',
+    hobby_hardware_2: 'I follow hardware news closely — GPU and CPU launches, architectural deep-dives, benchmark analyses. I enjoy evaluating the price-to-performance ratio of components and helping people find the right parts for their budget and use case.',
+    hobby_hardware_3: 'I have built and upgraded several machines over the years, from budget gaming rigs to high-end workstations. I also dabble in overclocking and cable management — because a clean build is a satisfying build.',
   },
 
   fr: {
@@ -166,5 +170,9 @@ export const translations: Translations = {
     hobby_y2k: "J'ai un attachement profond pour l'esthétique née au tournant du millénaire — la façon dont la fin des années 90 et le début des années 2000 imaginaient le futur. Côté urbain : les rues cel-shadées et vibrantes de Jet Set Radio. Côté épuré et digital : les interfaces iconiques de Wipeout conçues par Designers Republic, l'abstraction synesthésique de Rez, l'interface near-future d'Ace Combat 3 : Electrosphere, le design mecha tranchant de Zone of the Enders, et le langage visuel hypervéloce de F-Zero GX. Le versant musical de ce mood m'est tout aussi cher : jungle et drum & bass liquide.",
     hobby_aviation_title: "J'🛩️ l'Aviation",
     hobby_aviation: "Une passion depuis l'enfance : j'adore repérer et deviner les compagnies aériennes à leurs livrées, et je me passionne pour la conception et l'ingénierie des aéronefs. J'ai longtemps rêvé d'être pilote — et maintenant j'ai Flight Simulator et la machine pour le faire tourner. Ça compte, non ?",
+    hobby_hardware_title: "J'🖥️ le Hardware PC",
+    hobby_hardware_1: 'Montage de PCs. Conseil de matériel sur divers forums et serveurs de communautés Discord (KristenGWD, JeanBaptisteShow,…)',
+    hobby_hardware_2: "Je suis de près l'actualité hardware — sorties de GPU et CPU, analyses architecturales, études de benchmarks. J'aime évaluer le rapport qualité-prix des composants et aider les gens à trouver les pièces adaptées à leur budget et à leur usage.",
+    hobby_hardware_3: "J'ai monté et amélioré plusieurs machines au fil des années, des configs gaming entrée de gamme aux stations de travail haut de gamme. Je m'intéresse aussi à l'overclocking et à la gestion des câbles — parce qu'un beau câblage, c'est une config réussie.",
   },
 }

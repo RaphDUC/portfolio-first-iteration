@@ -143,6 +143,11 @@
 
         <h3>{{ $t('hobby_aviation_title') }}</h3>
         <div>{{ $t('hobby_aviation') }}</div>
+
+        <h3>{{ $t('hobby_hardware_title') }}</h3>
+        <div>{{ $t('hobby_hardware_1') }}</div>
+        <div>{{ $t('hobby_hardware_2') }}</div>
+        <div>{{ $t('hobby_hardware_3') }}</div>
       </div>
     </div>
   </div>
