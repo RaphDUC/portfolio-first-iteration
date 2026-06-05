@@ -31,6 +31,7 @@ export default defineComponent({
     const route = useRoute()
     const progressWidth = ref(100)
     const progressVisible = ref(false)
+    let rafId: number | null = null
 
     const routeLabels: Record<string, string> = {
       Root: 'ABOUT',
@@ -49,13 +50,17 @@ export default defineComponent({
     })
 
     router.beforeEach(() => {
+      if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null }
       progressWidth.value = 0
       progressVisible.value = true
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => { progressWidth.value = 75 })
+      let inner: number
+      rafId = requestAnimationFrame(() => {
+        inner = requestAnimationFrame(() => { progressWidth.value = 75; rafId = null })
+        rafId = inner
       })
     })
     router.afterEach(() => {
+      if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null }
       progressWidth.value = 100
       setTimeout(() => { progressVisible.value = false }, 400)
     })
