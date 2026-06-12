@@ -1,6 +1,68 @@
 ﻿import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData(
+    "project-OO", "Overdrive Oasis", "img/projects/project-OO-icon.png",
+    `<div class="paragraph">
+      <em>"The horizon shimmers with a pure blue. Between the undertow of data waves and the hum of a sleeping processor, a structure of chrome awaits..."</em>
+    </div>
+    <div class="paragraph">
+      <strong>OVERDRIVE OASIS</strong> is a third-person oceanic and futuristic arcade experience, vibrant with Y2K aesthetics and designed in the pure spirit of <strong>SEGA Dreamcast</strong> games and their specific features for water rendering.
+      <br/>Propelled across an endless sea, you pilot a sleek, shimmering chrome jet-ski. Ahead of you stands your only escape to worlds so liminal yet bright: the <em>RRP-TDD v1.32.2y2K — Restricted Ring Portal - To Deeper Dreams</em>.
+      <br/>To unlock the forcefield, you must explore the surroundings at full speed and jump inside the rings scattered across the water to harvest their energy.
+    </div>
+    <div class="paragraph">
+      Created <strong>solo in 3 hours</strong> for <strong>Trijam 375</strong> (June 2026) on the theme <em>"Forbidden Door"</em>.
+      Originally a shader research project, turned into a full game for the jam.
+    </div>
+    <div class="paragraph">
+      Solo contributions:
+      <ul>
+        <li>Jet-ski controller with water surface reactions</li>
+        <li>Custom water shader, chrome shader, and Y2K/Dreamcast-inspired sky shader</li>
+        <li>All 3D models including the chrome jet-ski, created during the jam</li>
+        <li>Sound design — all SFX created and mixed in Audacity from stock/royalty-free samples</li>
+        <li>Music by <strong>Arcologies</strong> — <a href="https://anarkickrecs.bandcamp.com/album/arcologies-archipelago" target="_blank">🎧 "Archipelago" on Bandcamp</a></li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://wlhib.itch.io/overdrive-oasis" target="_blank">▶ Play on itch.io</a>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-OO-A.png" alt="Overdrive Oasis — Jet-ski" />
+      <img class="game-screenshot" src="img/projects/project-OO-B.png" alt="Overdrive Oasis — Ring Portal" />
+    </div>`,
+    "#006b9f", false, false,
+    `<div class="paragraph">
+      <em>"L'horizon scintille d'un bleu pur. Entre le ressac des vagues de données et le bourdonnement d'un processeur endormi, une structure de chrome attend..."</em>
+    </div>
+    <div class="paragraph">
+      <strong>OVERDRIVE OASIS</strong> est une expérience d'arcade océanique et futuriste à la troisième personne, vibrante d'esthétique Y2K et conçue dans le pur esprit des jeux de la <strong>SEGA Dreamcast</strong> et de leurs spécificités en matière de rendu de l'eau.
+      <br/>Propulsé sur une mer infinie, vous pilotez un jet-ski profilé en chrome scintillant. Devant vous se dresse votre unique échappatoire vers des mondes si liminaux mais brillants : le <em>RRP-TDD v1.32.2y2K — Restricted Ring Portal - To Deeper Dreams</em>.
+      <br/>Pour déverrouiller le champ de force, vous devrez explorer les environs à pleine vitesse et sauter à l'intérieur des anneaux dispatchés sur l'eau afin de récupérer leur énergie.
+    </div>
+    <div class="paragraph">
+      Créé en <strong>solo en 3 heures</strong> lors de la <strong>Trijam 375</strong> (juin 2026) sur le thème <em>"Forbidden Door"</em>.
+      À la base simple projet de recherche sur les shaders, transformé en jeu à part entière pour la jam.
+    </div>
+    <div class="paragraph">
+      Contributions en solo :
+      <ul>
+        <li>Contrôleur de jet-ski avec rétroactions sur la surface de l'eau</li>
+        <li>Shader d'eau personnalisé, shader de chrome et shader de ciel Y2K/Dreamcast</li>
+        <li>Tous les modèles 3D dont le jet-ski en chrome, créés durant la jam</li>
+        <li>Design sonore — tous les SFX créés et mixés avec Audacity à partir d'échantillons libres de droits</li>
+        <li>Musique de <strong>Arcologies</strong> — <a href="https://anarkickrecs.bandcamp.com/album/arcologies-archipelago" target="_blank">🎧 Album "Archipelago" sur Bandcamp</a></li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://wlhib.itch.io/overdrive-oasis" target="_blank">▶ Jouer sur itch.io</a>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-OO-A.png" alt="Overdrive Oasis — Jet-ski" />
+      <img class="game-screenshot" src="img/projects/project-OO-B.png" alt="Overdrive Oasis — Ring Portal" />
+    </div>`
+  ),
   new ProjectData(
     "project-DFBT", "Death Fel' Ball Tournament", "img/projects/project-DFBT-icon.png",
     `<div class="paragraph">
