@@ -532,52 +532,6 @@ export default [
     </div>`
   ),
   new ProjectData(
-    "project-HEADNT", "Headn't", "img/projects/project-HEADNT-icon.png",
-    `<div class="paragraph">
-      <strong>Headn't</strong> is an unfinished split-screen local co-op third-person concept built with Unreal Engine 5 as an HEAJ end-of-year project (June 2024).
-      <br/>Two players respectively control the <strong>torso</strong> and the <strong>two legs</strong> of a robot searching for its missing head in an abandoned brutalist factory with Source Engine-inspired textures (think Half-Life 2).
-      <br/>Each half has asynchronous abilities used to solve a variety of puzzles: the torso can grab and pull objects or climb surfaces; the legs can charge a sprint or a jump; both can kick or punch to trigger mechanisms.
-    </div>
-    <div class="paragraph center">
-      Download the current build <a href="https://drive.google.com/drive/folders/YOUR_PLACEHOLDER_FOLDER_ID" target="_blank">here on Google Drive</a> (placeholder link — to be updated).
-    </div>
-    <div class="paragraph">
-      My contributions:
-      <ul>
-        <li>All programming</li>
-        <li>Part of the level design</li>
-        <li>VFX and shader work</li>
-      </ul>
-      Three HEAJ artists assisted on the tech art mentioned above and created all game assets.
-    </div>
-    <div class="paragraph center">
-      <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Split-screen View" />
-      <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Factory Environment" />
-    </div>`,
-    "#6a6a7a", false, false,
-    `<div class="paragraph">
-      <strong>Headn't</strong> est un concept de jeu en coopération locale (écran splitté) à la troisième personne non terminé, réalisé sous Unreal Engine 5 comme projet de fin d'année à l'HEAJ (juin 2024).
-      <br/>Deux joueurs contrôlent respectivement le <strong>buste</strong> et les <strong>deux jambes</strong> d'un robot à la recherche de sa tête disparue dans une ancienne usine brutaliste aux textures inspirées des jeux Source Engine (surtout Half-Life 2).
-      <br/>Chaque moitié dispose de capacités asynchrones pour résoudre divers puzzles : le buste peut attraper et tirer des objets ou escalader des surfaces ; les jambes peuvent charger un sprint ou un saut ; les deux peuvent donner un coup de pied ou de poing pour actionner des mécanismes.
-    </div>
-    <div class="paragraph center">
-      Télécharger la build actuelle <a href="https://drive.google.com/drive/folders/YOUR_PLACEHOLDER_FOLDER_ID" target="_blank">ici sur Google Drive</a> (lien provisoire — à mettre à jour).
-    </div>
-    <div class="paragraph">
-      Mes contributions :
-      <ul>
-        <li>Toute la programmation</li>
-        <li>Une partie du level design</li>
-        <li>VFX et travail sur les shaders</li>
-      </ul>
-      Trois artistes de l'HEAJ ont assisté sur la partie tech art et créé l'intégralité des assets du jeu.
-    </div>
-    <div class="paragraph center">
-      <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Vue en écran splitté" />
-      <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Usine brutaliste" />
-    </div>`
-  ),
-  new ProjectData(
     "project-ALULA", "Alüla", "img/projects/project-ALULA-icon.png",
     `<div class="paragraph">
       <strong>Alüla</strong> is a local multiplayer bird-racing game built with Unreal Engine 5 for WonderJam Winter 2025 (February 2025).
@@ -665,6 +619,52 @@ export default [
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-TTT-A.png" alt="Three Tree Trails — Écran titre" />
       <img class="game-screenshot" src="img/projects/project-TTT-B.png" alt="Three Tree Trails — Les arbres" />
+    </div>`
+  ),
+  new ProjectData(
+    "project-HEADNT", "Headn't", "img/projects/project-HEADNT-icon.png",
+    `<div class="paragraph">
+      <strong>Headn't</strong> is an unfinished split-screen local co-op third-person concept built with Unreal Engine 5 as an HEAJ end-of-year project (June 2024).
+      <br/>Two players respectively control the <strong>torso</strong> and the <strong>two legs</strong> of a robot searching for its missing head in an abandoned brutalist factory with Source Engine-inspired textures (think Half-Life 2).
+      <br/>Each half has asynchronous abilities used to solve a variety of puzzles: the torso can grab and pull objects or climb surfaces; the legs can charge a sprint or a jump; both can kick or punch to trigger mechanisms.
+    </div>
+    <div class="paragraph center">
+      Download the current build <a href="https://drive.google.com/drive/folders/YOUR_PLACEHOLDER_FOLDER_ID" target="_blank">here on Google Drive</a> (placeholder link — to be updated).
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li>All programming</li>
+        <li>Part of the level design</li>
+        <li>VFX and shader work</li>
+      </ul>
+      Three HEAJ artists assisted on the tech art mentioned above and created all game assets.
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Split-screen View" />
+      <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Factory Environment" />
+    </div>`,
+    "#6a6a7a", false, false,
+    `<div class="paragraph">
+      <strong>Headn't</strong> est un concept de jeu en coopération locale (écran splitté) à la troisième personne non terminé, réalisé sous Unreal Engine 5 comme projet de fin d'année à l'HEAJ (juin 2024).
+      <br/>Deux joueurs contrôlent respectivement le <strong>buste</strong> et les <strong>deux jambes</strong> d'un robot à la recherche de sa tête disparue dans une ancienne usine brutaliste aux textures inspirées des jeux Source Engine (surtout Half-Life 2).
+      <br/>Chaque moitié dispose de capacités asynchrones pour résoudre divers puzzles : le buste peut attraper et tirer des objets ou escalader des surfaces ; les jambes peuvent charger un sprint ou un saut ; les deux peuvent donner un coup de pied ou de poing pour actionner des mécanismes.
+    </div>
+    <div class="paragraph center">
+      Télécharger la build actuelle <a href="https://drive.google.com/drive/folders/YOUR_PLACEHOLDER_FOLDER_ID" target="_blank">ici sur Google Drive</a> (lien provisoire — à mettre à jour).
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li>Toute la programmation</li>
+        <li>Une partie du level design</li>
+        <li>VFX et travail sur les shaders</li>
+      </ul>
+      Trois artistes de l'HEAJ ont assisté sur la partie tech art et créé l'intégralité des assets du jeu.
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Vue en écran splitté" />
+      <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Usine brutaliste" />
     </div>`
   ),
   new ProjectData(

@@ -20,7 +20,7 @@
       </li>
       <li>
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
-        <a href="https://itch.io/profile/wlhib" target="_blank">itch.io/profile/wlhib</a>
+        <a href="https://wlhib.itch.io/" target="_blank">https://wlhib.itch.io/</a>
       </li>
     </ul>
 
