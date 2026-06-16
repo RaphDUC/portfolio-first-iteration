@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-CWjCPq-G.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-Dri2iSTH.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-DMXNDs4m.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-Bjqn73rO.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
       <em>"The horizon shimmers with a pure blue. Between the undertow of data waves and the hum of a sleeping processor, a structure of chrome awaits..."</em>
     </div>
     <div class="paragraph">
@@ -430,44 +430,6 @@ import{P as e,a as t}from"./ProjectData-CWjCPq-G.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-BANC-A.png" alt="The Bancal Company — Gameplay" />
       <img class="game-screenshot" src="img/projects/project-BANC-B.png" alt="The Bancal Company — La mine" />
-    </div>`),new e("project-O5T","O5tium","img/projects/project-O5T-icon.png",`<div class="paragraph">
-      <strong>O5tium</strong> is a short silent narrative game built with Unreal Engine 5 over two weeks in December 2024 and released on itch.io.
-      <br/>You spend 5 days alongside an isolated and depressed protagonist, confined to a single room. Try to find a way out.
-    </div>
-    <div class="paragraph center">
-      You can play the game <a href="https://alt-128.itch.io/o5tium" target="_blank">here on itch.io</a>.
-      <br/>The in-game music by Legende_urbaine is available <a href="https://m.soundcloud.com/legend-urbaine/o5tium-in-game" target="_blank">on SoundCloud</a>.
-    </div>
-    <div class="paragraph">
-      Team:
-      <ul>
-        <li><strong>Game Design &amp; Level Design</strong> — Mewaska, Wav_le_hib (me), valnobdago, Eli, Alt128</li>
-        <li><strong>Programming</strong> — Wav_le_hib (me)</li>
-        <li><strong>Music</strong> — Legende_urbaine</li>
-      </ul>
-    </div>
-    <div class="paragraph center">
-      <img class="game-screenshot" src="img/projects/project-O5T-A.png" alt="O5tium — Day 1" />
-      <img class="game-screenshot" src="img/projects/project-O5T-B.png" alt="O5tium — The Room" />
-    </div>`,"#3d3d6e",!1,!1,`<div class="paragraph">
-      <strong>O5tium</strong> est un court jeu narratif muet réalisé sous Unreal Engine 5 en deux semaines en décembre 2024 et publié sur itch.io.
-      <br/>Vous passez 5 jours aux côtés d'un protagoniste isolé et dépressif, confiné dans son unique pièce. Essayez de trouver une sortie.
-    </div>
-    <div class="paragraph center">
-      Vous pouvez jouer au jeu <a href="https://alt-128.itch.io/o5tium" target="_blank">ici sur itch.io</a>.
-      <br/>La musique en jeu de Legende_urbaine est disponible <a href="https://m.soundcloud.com/legend-urbaine/o5tium-in-game" target="_blank">sur SoundCloud</a>.
-    </div>
-    <div class="paragraph">
-      Équipe :
-      <ul>
-        <li><strong>Game Design &amp; Level Design</strong> — Mewaska, Wav_le_hib (moi), valnobdago, Eli, Alt128</li>
-        <li><strong>Programmation</strong> — Wav_le_hib (moi)</li>
-        <li><strong>Musique</strong> — Legende_urbaine</li>
-      </ul>
-    </div>
-    <div class="paragraph center">
-      <img class="game-screenshot" src="img/projects/project-O5T-A.png" alt="O5tium — Jour 1" />
-      <img class="game-screenshot" src="img/projects/project-O5T-B.png" alt="O5tium — La pièce" />
     </div>`),new e("project-ALULA","Alüla","img/projects/project-ALULA-icon.png",`<div class="paragraph">
       <strong>Alüla</strong> is a local multiplayer bird-racing game built with Unreal Engine 5 for WonderJam Winter 2025 (February 2025).
       <br/>2 to 4 players race virtual birds at high speed in a straight line through a neon data tunnel, each trying to be first through the doors that appear along the way. The last player to reach a door is eliminated; winners race again until only one remains.
@@ -546,6 +508,44 @@ import{P as e,a as t}from"./ProjectData-CWjCPq-G.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-TTT-A.png" alt="Three Tree Trails — Écran titre" />
       <img class="game-screenshot" src="img/projects/project-TTT-B.png" alt="Three Tree Trails — Les arbres" />
+    </div>`),new e("project-O5T","O5tium","img/projects/project-O5T-icon.png",`<div class="paragraph">
+      <strong>O5tium</strong> is a short silent narrative game built with Unreal Engine 5 over two weeks in December 2024 and released on itch.io.
+      <br/>You spend 5 days alongside an isolated and depressed protagonist, confined to a single room. Try to find a way out.
+    </div>
+    <div class="paragraph center">
+      You can play the game <a href="https://alt-128.itch.io/o5tium" target="_blank">here on itch.io</a>.
+      <br/>The in-game music by Legende_urbaine is available <a href="https://m.soundcloud.com/legend-urbaine/o5tium-in-game" target="_blank">on SoundCloud</a>.
+    </div>
+    <div class="paragraph">
+      Team:
+      <ul>
+        <li><strong>Game Design &amp; Level Design</strong> — Mewaska, Wav_le_hib (me), valnobdago, Eli, Alt128</li>
+        <li><strong>Programming</strong> — Wav_le_hib (me)</li>
+        <li><strong>Music</strong> — Legende_urbaine</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-O5T-A.png" alt="O5tium — Day 1" />
+      <img class="game-screenshot" src="img/projects/project-O5T-B.png" alt="O5tium — The Room" />
+    </div>`,"#3d3d6e",!1,!1,`<div class="paragraph">
+      <strong>O5tium</strong> est un court jeu narratif muet réalisé sous Unreal Engine 5 en deux semaines en décembre 2024 et publié sur itch.io.
+      <br/>Vous passez 5 jours aux côtés d'un protagoniste isolé et dépressif, confiné dans son unique pièce. Essayez de trouver une sortie.
+    </div>
+    <div class="paragraph center">
+      Vous pouvez jouer au jeu <a href="https://alt-128.itch.io/o5tium" target="_blank">ici sur itch.io</a>.
+      <br/>La musique en jeu de Legende_urbaine est disponible <a href="https://m.soundcloud.com/legend-urbaine/o5tium-in-game" target="_blank">sur SoundCloud</a>.
+    </div>
+    <div class="paragraph">
+      Équipe :
+      <ul>
+        <li><strong>Game Design &amp; Level Design</strong> — Mewaska, Wav_le_hib (moi), valnobdago, Eli, Alt128</li>
+        <li><strong>Programmation</strong> — Wav_le_hib (moi)</li>
+        <li><strong>Musique</strong> — Legende_urbaine</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-O5T-A.png" alt="O5tium — Jour 1" />
+      <img class="game-screenshot" src="img/projects/project-O5T-B.png" alt="O5tium — La pièce" />
     </div>`),new e("project-HEADNT","Headn't","img/projects/project-HEADNT-icon.png",`<div class="paragraph">
       <strong>Headn't</strong> is an unfinished split-screen local co-op third-person concept built with Unreal Engine 5 as an HEAJ end-of-year project (June 2024).
       <br/>Two players respectively control the <strong>torso</strong> and the <strong>two legs</strong> of a robot searching for its missing head in an abandoned brutalist factory with Source Engine-inspired textures (think Half-Life 2).
