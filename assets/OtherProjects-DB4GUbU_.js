@@ -1,4 +1,4 @@
-import{P as e,a as i}from"./ProjectData-Dg9hk4Ta.js";import{i as o,_ as n,e as l,a as t,t as r,h as p,s as d,p as c}from"./index-Dgxn5qL9.js";const u=[new e("project-WAT","Water Shaders","img/projects/project-WAT-icon.png",`<div class="paragraph">
+import{P as e,a as i}from"./ProjectData-DSNTKaPs.js";import{i as o,_ as n,e as l,a as t,t as r,h as p,s as d,p as c}from"./index-C2voBiJj.js";const u=[new e("project-WAT","Water Shaders","img/projects/project-WAT-icon.png",`<div class="paragraph">
       This small Unreal Engine 5 project contains <strong>water shaders</strong> I created during my free time in March 2024.
     </div>
     <div class="paragraph center">
@@ -94,7 +94,7 @@ import{P as e,a as i}from"./ProjectData-Dg9hk4Ta.js";import{i as o,_ as n,e as l
     </div>
     <div class="paragraph center">
       Consultez ou téléchargez ce modèle <a href="https://skfb.ly/oGuoP" target="_blank">sur SketchFab</a>.
-    </div>`),new e("project-6","Cyberpunk Souvenirs","img/projects/project-CB-icon.png",`<div class="paragraph">
+    </div>`),new e("project-6","Cyberpunk Souvenirs","img/projects/project-CBS-icon.png",`<div class="paragraph">
       <strong>Cyberpunk Souvenirs</strong> is a 3D modelled desktop covered with screenshots from Cyberpunk 2077, created in March 2023 as a practical work focused on UV Mapping.
     </div>
     <div class="paragraph center">
