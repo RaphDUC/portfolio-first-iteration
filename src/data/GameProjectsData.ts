@@ -209,6 +209,9 @@ export default [
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1A6osOpSUnYWp8dys0xDEdvoIjZ5zhFX4/view?usp=sharing" target="_blank">▶ You can play the game here</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-KA-A.png" alt="Kill.Automaton — Stealth Gameplay" />
       <img class="game-screenshot" src="img/projects/project-KA-B.png" alt="Kill.Automaton — AI Guard Behavior" />
     </div>`,
@@ -237,6 +240,9 @@ export default [
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1A6osOpSUnYWp8dys0xDEdvoIjZ5zhFX4/view?usp=sharing" target="_blank">▶ Vous pouvez jouer au jeu ici</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-KA-A.png" alt="Kill.Automaton — Gameplay infiltration" />
       <img class="game-screenshot" src="img/projects/project-KA-B.png" alt="Kill.Automaton — Comportement IA des gardes" />
     </div>`
@@ -260,6 +266,9 @@ export default [
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1wcpC5aUvRljDfggvGln0OZEKdrOsnmaD/view?usp=sharing" target="_blank">▶ You can play the game here</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-LJ-A.png" alt="Lady Jane — Stealth Gameplay" />
       <img class="game-screenshot" src="img/projects/project-LJ-B.png" alt="Lady Jane — Art Direction" />
     </div>`,
@@ -279,6 +288,9 @@ export default [
         <li>Création complète des personnages et de toutes leurs animations — Lady Jane et tous les gardes</li>
         <li>Design et intégration de l'UI des menus</li>
       </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1wcpC5aUvRljDfggvGln0OZEKdrOsnmaD/view?usp=sharing" target="_blank">▶ Vous pouvez jouer au jeu ici</a>
     </div>
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-LJ-A.png" alt="Lady Jane — Gameplay infiltration" />
@@ -304,6 +316,10 @@ export default [
       Additional features: color-coded AR HUD alert system (green/yellow/orange/red) for oxygen and pressure levels; checkpoint beacon save system.
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1rBb3qBwVHP20ZfAdzEqWJr2Cr_WQW0LZ/view?usp=sharing" target="_blank">▶ You can play the game here</a>
+      <br/><a href="https://docs.google.com/document/d/1KTp3Z4-LoiX7NFgEp9dB6anb7ukk66W6Ys_W7gOXgZk/edit?usp=sharing" target="_blank">📄 Report (in French)</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-VRSUB-A.png" alt="VR Submarine — Cockpit" />
       <img class="game-screenshot" src="img/projects/project-VRSUB-B.png" alt="VR Submarine — Holographic Map" />
     </div>`,
@@ -323,6 +339,10 @@ export default [
     </div>
     <div class="paragraph">
       Fonctionnalités supplémentaires : système d'alertes HUD AR avec code couleur (vert/jaune/orange/rouge) pour l'oxygène et la pression ; système de sauvegarde par balises-checkpoints.
+    </div>
+    <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1rBb3qBwVHP20ZfAdzEqWJr2Cr_WQW0LZ/view?usp=sharing" target="_blank">▶ Vous pouvez jouer au jeu ici</a>
+      <br/><a href="https://docs.google.com/document/d/1KTp3Z4-LoiX7NFgEp9dB6anb7ukk66W6Ys_W7gOXgZk/edit?usp=sharing" target="_blank">📄 Rapport (en français)</a>
     </div>
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-VRSUB-A.png" alt="VR Sous-marin — Cockpit" />

@@ -21,6 +21,8 @@ export const translations: Translations = {
 
     // Common
     close: 'Close',
+    play_game_here: 'You can play the game here',
+    report_french: 'Report (in French)',
 
     // About page
     about_title: "Hi. I'm just curious.",
@@ -107,6 +109,8 @@ export const translations: Translations = {
 
     // Common
     close: 'Fermer',
+    play_game_here: 'Vous pouvez jouer au jeu ici',
+    report_french: 'Rapport (en français)',
 
     // About page
     about_title: 'Bonjour. Je suis juste curieux.',
