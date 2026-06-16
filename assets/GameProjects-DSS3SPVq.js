@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-mYTE1iC6.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-DFVoY_aD.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-CWjCPq-G.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-Dri2iSTH.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
       <em>"The horizon shimmers with a pure blue. Between the undertow of data waves and the hum of a sleeping processor, a structure of chrome awaits..."</em>
     </div>
     <div class="paragraph">
