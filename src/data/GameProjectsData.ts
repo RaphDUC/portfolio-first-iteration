@@ -199,7 +199,7 @@ export default [
       </ul>
     </div>
     <div class="paragraph">
-      My contributions (17%):
+      My contributions :
       <ul>
         <li>Assistance with ML-Agent training</li>
         <li>UI creation and integration</li>

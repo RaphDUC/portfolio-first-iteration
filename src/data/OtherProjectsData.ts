@@ -128,7 +128,7 @@ export default [
     </div>`
   ),
   new ProjectData(
-    "project-6", "Cyberpunk Souvenirs", "img/projects/project-CB-icon.png",
+    "project-6", "Cyberpunk Souvenirs", "img/projects/project-CBS-icon.png",
     `<div class="paragraph">
       <strong>Cyberpunk Souvenirs</strong> is a 3D modelled desktop covered with screenshots from Cyberpunk 2077, created in March 2023 as a practical work focused on UV Mapping.
     </div>
