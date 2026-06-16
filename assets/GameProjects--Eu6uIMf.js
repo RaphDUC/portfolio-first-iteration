@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-C2voBiJj.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-CIONrU6e.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-BcKNls9I.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
       <em>"The horizon shimmers with a pure blue. Between the undertow of data waves and the hum of a sleeping processor, a structure of chrome awaits..."</em>
     </div>
     <div class="paragraph">
@@ -186,6 +186,9 @@ import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1A6osOpSUnYWp8dys0xDEdvoIjZ5zhFX4/view?usp=sharing" target="_blank">▶ You can play the game here</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-KA-A.png" alt="Kill.Automaton — Stealth Gameplay" />
       <img class="game-screenshot" src="img/projects/project-KA-B.png" alt="Kill.Automaton — AI Guard Behavior" />
     </div>`,"#1a3a2a",!1,!1,`<div class="paragraph">
@@ -212,6 +215,9 @@ import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1A6osOpSUnYWp8dys0xDEdvoIjZ5zhFX4/view?usp=sharing" target="_blank">▶ Vous pouvez jouer au jeu ici</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-KA-A.png" alt="Kill.Automaton — Gameplay infiltration" />
       <img class="game-screenshot" src="img/projects/project-KA-B.png" alt="Kill.Automaton — Comportement IA des gardes" />
     </div>`),new e("project-LJ","Lady Jane: Extraordinary Thief","img/projects/project-LJ-icon.png",`<div class="paragraph">
@@ -229,6 +235,9 @@ import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l
         <li>Full character creation and animations — Lady Jane and all guards</li>
         <li>Menu UI design and implementation</li>
       </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1wcpC5aUvRljDfggvGln0OZEKdrOsnmaD/view?usp=sharing" target="_blank">▶ You can play the game here</a>
     </div>
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-LJ-A.png" alt="Lady Jane — Stealth Gameplay" />
@@ -250,6 +259,9 @@ import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1wcpC5aUvRljDfggvGln0OZEKdrOsnmaD/view?usp=sharing" target="_blank">▶ Vous pouvez jouer au jeu ici</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-LJ-A.png" alt="Lady Jane — Gameplay infiltration" />
       <img class="game-screenshot" src="img/projects/project-LJ-B.png" alt="Lady Jane — Direction artistique" />
     </div>`),new e("project-VRSUB","VR Futuristic Submarine","img/projects/project-VRSUB-icon.png",`<div class="paragraph">
@@ -269,6 +281,10 @@ import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l
       Additional features: color-coded AR HUD alert system (green/yellow/orange/red) for oxygen and pressure levels; checkpoint beacon save system.
     </div>
     <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1rBb3qBwVHP20ZfAdzEqWJr2Cr_WQW0LZ/view?usp=sharing" target="_blank">▶ You can play the game here</a>
+      <br/><a href="https://docs.google.com/document/d/1KTp3Z4-LoiX7NFgEp9dB6anb7ukk66W6Ys_W7gOXgZk/edit?usp=sharing" target="_blank">📄 Report (in French)</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-VRSUB-A.png" alt="VR Submarine — Cockpit" />
       <img class="game-screenshot" src="img/projects/project-VRSUB-B.png" alt="VR Submarine — Holographic Map" />
     </div>`,"#1a5a7a",!1,!1,`<div class="paragraph">
@@ -286,6 +302,10 @@ import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l
     </div>
     <div class="paragraph">
       Fonctionnalités supplémentaires : système d'alertes HUD AR avec code couleur (vert/jaune/orange/rouge) pour l'oxygène et la pression ; système de sauvegarde par balises-checkpoints.
+    </div>
+    <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1rBb3qBwVHP20ZfAdzEqWJr2Cr_WQW0LZ/view?usp=sharing" target="_blank">▶ Vous pouvez jouer au jeu ici</a>
+      <br/><a href="https://docs.google.com/document/d/1KTp3Z4-LoiX7NFgEp9dB6anb7ukk66W6Ys_W7gOXgZk/edit?usp=sharing" target="_blank">📄 Rapport (en français)</a>
     </div>
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-VRSUB-A.png" alt="VR Sous-marin — Cockpit" />
@@ -1290,4 +1310,4 @@ import{P as e,a as t}from"./ProjectData-DSNTKaPs.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-BAO-A.png" alt="Page de BD" />
       <img class="game-screenshot" src="img/projects/project-BAO-B.png" alt="Niveau Demo" />
-    </div>`)],d=n({name:"GameProjects",components:{ProjectsList:t},data:function(){return{projects:u}}}),m={style:{"margin-bottom":"30px"}};function h(a,v,b,j,f,y){const i=p("ProjectsList");return g(),l("div",null,[r("h1",null,s(a.$t("games_title")),1),r("div",m,s(a.$t("games_subtitle")),1),c(i,{projects:a.projects},null,8,["projects"])])}const D=o(d,[["render",h]]);export{D as default};
+    </div>`)],d=n({name:"GameProjects",components:{ProjectsList:t},data:function(){return{projects:u}}}),m={style:{"margin-bottom":"30px"}};function h(a,v,b,f,j,y){const i=p("ProjectsList");return g(),l("div",null,[r("h1",null,s(a.$t("games_title")),1),r("div",m,s(a.$t("games_subtitle")),1),c(i,{projects:a.projects},null,8,["projects"])])}const D=o(d,[["render",h]]);export{D as default};
