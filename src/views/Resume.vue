@@ -83,7 +83,7 @@
 
       <h2>{{ $t('resume_education') }}</h2>
 
-      <h3>Université du Québec à Chicoutimi (Chicoutimi, Canada) - 2025-2027</h3>
+      <h3>Université du Québec à Chicoutimi (Chicoutimi, Canada) - 2025-2026</h3>
       <h4>{{ $lang === 'fr' ? 'Maîtrise en Informatique' : "Master's degree in Computer Science (Maîtrise en Informatique)" }}</h4>
       <div>{{ $lang === 'fr' ? 'Spécialité Jeux Vidéo' : 'Specialty in Video Games' }}</div>
 
