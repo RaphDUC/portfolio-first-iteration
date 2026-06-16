@@ -27,8 +27,8 @@
       </div>
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> {{ $t('resume_download_en') }}</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> {{ $t('resume_download_fr') }}</a>
+        <a class="download-link" href="d/CV_DUCHETRaphael_V2_ENG.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> {{ $t('resume_download_en') }}</a>
+        <a class="download-link" href="d/CV_DUCHETRaphael_V2.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> {{ $t('resume_download_fr') }}</a>
         <div style="clear:both"></div>
       </div>
     </div>
