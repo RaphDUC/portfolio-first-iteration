@@ -89,6 +89,9 @@ export default [
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://wlhib.itch.io/death-fel-ball-tournament" target="_blank">▶ Play on itch.io</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-DFBT-A.png" alt="Death Fel' Ball Tournament — Arena" />
       <img class="game-screenshot" src="img/projects/project-DFBT-B.png" alt="Death Fel' Ball Tournament — Gameplay" />
     </div>`,
@@ -115,6 +118,9 @@ export default [
         <li><strong>Legende_Urbaine</strong> — Musique, SFX (libres de droits, remixés sur Audacity)</li>
         <li><strong>WLHib (moi)</strong> — Programmation, Tech Art</li>
       </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://wlhib.itch.io/death-fel-ball-tournament" target="_blank">▶ Jouer sur itch.io</a>
     </div>
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-DFBT-A.png" alt="Death Fel' Ball Tournament — Arène" />
@@ -149,6 +155,9 @@ export default [
       </ul>
     </div>
     <div class="paragraph center">
+      <a href="https://wlhib.itch.io/among-the-shades" target="_blank">▶ Play on itch.io</a>
+    </div>
+    <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-ATS-A.png" alt="Among the Shades — Island Traversal" />
       <img class="game-screenshot" src="img/projects/project-ATS-B.png" alt="Among the Shades — Specter Vision" />
     </div>`,
@@ -177,6 +186,9 @@ export default [
         <li><strong>Lafpax</strong> — Art 2D</li>
         <li><strong>Légende Urbaine</strong> — Musique</li>
       </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://wlhib.itch.io/among-the-shades" target="_blank">▶ Jouer sur itch.io</a>
     </div>
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-ATS-A.png" alt="Among the Shades — Traversée de l'île" />
@@ -463,7 +475,7 @@ export default [
       <br/>The player controls them one at a time in their respective rooms while the other two stay decidedly idle. Keep a close eye on all three and swap control before too many wagons explode!
     </div>
     <div class="paragraph center">
-      You can play the game <a href="https://wlhib.itch.io/the-bancal-company-in-the-marmots-mine" target="_blank">here on itch.io</a>.
+      <a href="https://wlhib.itch.io/the-bancal-company-in-the-marmots-mine" target="_blank">▶ Play on itch.io</a>
     </div>
     <div class="paragraph">
       Team:
@@ -488,7 +500,7 @@ export default [
       <br/>Le joueur les contrôle un à un dans leurs salles respectives pendant que les deux autres font peu de cas. Surveillez les trois et changez de personnage avant que trop de wagons n'explosent !
     </div>
     <div class="paragraph center">
-      Vous pouvez jouer au jeu <a href="https://wlhib.itch.io/the-bancal-company-in-the-marmots-mine" target="_blank">ici sur itch.io</a>.
+      <a href="https://wlhib.itch.io/the-bancal-company-in-the-marmots-mine" target="_blank">▶ Jouer sur itch.io</a>
     </div>
     <div class="paragraph">
       Équipe :
