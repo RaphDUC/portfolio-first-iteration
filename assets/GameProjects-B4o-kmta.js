@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-DMXNDs4m.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-Bjqn73rO.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-Dg9hk4Ta.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-Dgxn5qL9.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
       <em>"The horizon shimmers with a pure blue. Between the undertow of data waves and the hum of a sleeping processor, a structure of chrome awaits..."</em>
     </div>
     <div class="paragraph">
@@ -586,8 +586,90 @@ import{P as e,a as t}from"./ProjectData-DMXNDs4m.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-HEADNT-A.png" alt="Headn't — Vue en écran splitté" />
       <img class="game-screenshot" src="img/projects/project-HEADNT-B.png" alt="Headn't — Usine brutaliste" />
+    </div>`),new e("project-1","Influunt Entis","img/projects/project-IE-A.png",`<div class="paragraph">
+      <strong>Influunt Entis</strong> is a top-down ARPG project with stealth game elements.
+      <br/>Built on a story four years in the making, its development began in January 2022.
+      <br/>In March 2023, I started a gameplay prototype in Unity, then moved it to Unreal Engine
+      after discovering the advantages of its Post Process system and GAS (Gameplay Ability System).
+      <br/>In March 2024, the project truly gained momentum as four friends joined me to form a team.
+      <br/>The project is now in rework, with a new art style and a more focused scope. We are currently working on a prototype for Chapter 1, which will feature two playable characters, an infiltration system and a combat system.
+    </div>
+    <div class="paragraph center">
+      You can read the Game Design Document (in French)
+      <a href="https://docs.google.com/presentation/d/1-ENL6onFRHKqDHCUKNXlLolEbJcNCVOz/edit?usp=sharing&ouid=102111505572083680768&rtpof=true&sd=true" target="_blank">here</a>.
+      A small tech and artistic demo featuring shaders and models I made is playable
+      <a href="https://drive.google.com/file/d/1MPzDRDLOwN41jAmK1KjBRyN3hlJGft2T/view" target="_blank">there</a>.
+      <br/>A prototype featuring Chapter 1 content with two playable characters and a combat system is coming soon.
+    </div>
+    <div class="paragraph">
+      My contributions so far:
+      <ul>
+        <li>Character mechanics and core gameplay design</li>
+        <li>Gameplay code using the Gameplay Ability System</li>
+        <li>A custom Combo System (demo video <a href="https://drive.google.com/file/d/1bE6kQF5ecmhwaUCvUemEUr-mhpwisHsp/view?usp=sharing" target="_blank">here</a>)</li>
+        <li>Beginning AI behaviour code</li>
+        <li>Narrative research and dialogue writing</li>
+        <li>2D character concepts</li>
+        <li>Learning 2D environment concept art with <a href="https://linktr.ee/Scrapmagus" target="_blank">Pedroscrap</a></li>
+        <li>3D character and asset modelling</li>
+        <li>Facial animation research</li>
+        <li>Art style research and cell shading</li>
+        <li>Level and map design</li>
+        <li>SFX and music style research with <a href="https://soundcloud.com/legend-urbaine" target="_blank">Légende_Urbaine</a> and <a href="https://www.youtube.com/channel/UCOGuXm5AYtvF5hTHoUyUZ-A" target="_blank">Pulsial</a></li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-IE-A.png" alt="Concept Art" />
+      <img class="game-screenshot" src="img/projects/project-IE-B.png" alt="Character Design WIP 1" />
+      <img class="game-screenshot" src="img/projects/project-IE-C.png" alt="Character Design WIP 2" />
+      <img class="game-screenshot" src="img/projects/project-IE-D.png" alt="Infiltration" />
+      <img class="game-screenshot" src="img/projects/project-IE-E.png" alt="Combo Together" />
+      <img class="game-screenshot" src="img/projects/project-IE-F.png" alt="Sneaking Together" />
+      <img class="game-screenshot" src="img/projects/project-IE-G.png" alt="Fabien smile 1" />
+      <img class="game-screenshot" src="img/projects/project-IE-H.png" alt="Fabien smile 2" />
+    </div>`,"#23bd69",!1,!1,`<div class="paragraph">
+      <strong>Influunt Entis</strong> est un projet d'ARPG top-down mêlant des éléments de stealth.
+      <br/>S'appuyant sur une histoire mûrie pendant quatre ans, son développement a débuté en janvier 2022.
+      <br/>En mars 2023, j'ai commencé un prototype sous Unity, puis l'ai transféré sur Unreal Engine
+      après avoir découvert les avantages de son système Post Process et de GAS (Gameplay Ability System).
+       <br/>En mars 2024, le projet a vraiment pris de l'ampleur lorsque quatre amis m'ont rejoint pour former une équipe.
+      <br/>Le projet est maintenant en cours de refonte, avec un nouveau style artistique et un périmètre plus ciblé. Nous travaillons actuellement sur un prototype pour le Chapitre 1, qui comprendra deux personnages jouables, un système d'infiltration et un système de combat.
+    </div>
+    <div class="paragraph center">
+      Vous pouvez lire le Game Design Document (en français)
+      <a href="https://docs.google.com/presentation/d/1-ENL6onFRHKqDHCUKNXlLolEbJcNCVOz/edit?usp=sharing&ouid=102111505572083680768&rtpof=true&sd=true" target="_blank">ici</a>.
+      Une petite démo technique et artistique présentant des shaders et modèles que j'ai réalisés est jouable
+      <a href="https://drive.google.com/file/d/1MPzDRDLOwN41jAmK1KjBRyN3hlJGft2T/view" target="_blank">là</a>.
+      <br/>Un prototype du Chapitre 1 avec deux personnages jouables et un système de combat arrive prochainement.
+    </div>
+    <div class="paragraph">
+      Mes contributions à ce jour :
+      <ul>
+        <li>Mécaniques du personnage et gameplay design principal</li>
+        <li>Code de gameplay avec le Gameplay Ability System</li>
+        <li>Un Système de Combos personnalisé (vidéo démo <a href="https://drive.google.com/file/d/1bE6kQF5ecmhwaUCvUemEUr-mhpwisHsp/view?usp=sharing" target="_blank">ici</a>)</li>
+        <li>Début du code IA</li>
+        <li>Recherche narrative et écriture des dialogues</li>
+        <li>Concepts 2D des personnages</li>
+        <li>Apprentissage du concept art d'environnement 2D avec <a href="https://linktr.ee/Scrapmagus" target="_blank">Pedroscrap</a></li>
+        <li>Modélisation 3D des personnages et assets</li>
+        <li>Recherche sur les animations faciales</li>
+        <li>Recherche de style artistique et cell shading</li>
+        <li>Level design et design de map</li>
+        <li>Recherche SFX et musicale avec <a href="https://soundcloud.com/legend-urbaine" target="_blank">Légende_Urbaine</a> et <a href="https://www.youtube.com/channel/UCOGuXm5AYtvF5hTHoUyUZ-A" target="_blank">Pulsial</a></li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <img class="game-screenshot" src="img/projects/project-IE-A.png" alt="Concept Art" />
+      <img class="game-screenshot" src="img/projects/project-IE-B.png" alt="Chara Design WIP 1" />
+      <img class="game-screenshot" src="img/projects/project-IE-C.png" alt="Chara Design WIP 2" />
+      <img class="game-screenshot" src="img/projects/project-IE-D.png" alt="Infiltration" />
+      <img class="game-screenshot" src="img/projects/project-IE-E.png" alt="Combo" />
+      <img class="game-screenshot" src="img/projects/project-IE-F.png" alt="Discrétion" />
+      <img class="game-screenshot" src="img/projects/project-IE-G.png" alt="Fabien sourire 1" />
+      <img class="game-screenshot" src="img/projects/project-IE-H.png" alt="Fabien sourire 2" />
     </div>`),new e("project-06","GoatBoi","img/projects/project-GOAT-icon.png",`<div class="paragraph">
-      <strong>GoatBoi</strong> is a 3D platformer prototype built in less than a month with Unreal Engine for a final exam.
+      <strong>GoatBoi</strong> is a 3D platformer prototype built in less than a month with Unreal Engine for a final exam in January 2024.
       <br/>Organised in a group of six, we drew inspiration from how 2000s-era platformers blended multiple mechanics alongside their core features.
       <br/>Since four of us had never used Unreal Engine before, we ran teaching sessions so everyone could acquire the required skills.
       <br/>You play as GoatBoi, trying to escape from Hell.
@@ -612,7 +694,7 @@ import{P as e,a as t}from"./ProjectData-DMXNDs4m.js";import{i as n,_ as o,e as l
     <div class="paragraph">
       Special thanks to <a href="https://symphocat.bandcamp.com/" target="_blank">SymphoCat</a> for kindly allowing us to use and showcase music from their albums <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-1" target="_blank">Revival Renaissance Rebirth Act 1</a> and <a href="https://symphocat.bandcamp.com/album/revival-renaissance-rebirth-act-2" target="_blank">Act 2</a>.
     </div>`,"#c43916",!1,!1,`<div class="paragraph">
-      <strong>GoatBoi</strong> est un prototype de jeu de plateforme 3D réalisé en moins d'un mois avec Unreal Engine dans le cadre d'un examen final.
+      <strong>GoatBoi</strong> est un prototype de jeu de plateforme 3D réalisé en moins d'un mois avec Unreal Engine dans le cadre d'un examen final en janvier 2024.
       <br/>En groupe de six, nous nous sommes inspirés de la façon dont les jeux de plateforme des années 2000 mêlaient plusieurs mécaniques à leurs fonctionnalités principales.
       <br/>Quatre d'entre nous n'ayant jamais utilisé Unreal Engine, nous avons organisé des sessions d'apprentissage pour que chacun puisse acquérir les compétences nécessaires.
       <br/>Vous incarnez GoatBoi, qui tente de s'échapper de l'Enfer.
@@ -910,86 +992,6 @@ import{P as e,a as t}from"./ProjectData-DMXNDs4m.js";import{i as n,_ as o,e as l
     </div>
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-HYST-icon.png" alt="Couverture de l'album" />
-    </div>`),new e("project-1","Influunt Entis","img/projects/project-IE-A.png",`<div class="paragraph">
-      <strong>Influunt Entis</strong> is a top-down ARPG project with stealth game elements.
-      <br/>Built on a story four years in the making, its development began in January 2022.
-      <br/>In March 2023, I started a gameplay prototype in Unity, then moved it to Unreal Engine
-      after discovering the advantages of its Post Process system and GAS (Gameplay Ability System).
-      <br/>In March 2024, the project gained momentum as four friends joined me to form a team.
-    </div>
-    <div class="paragraph center">
-      You can read the Game Design Document (in French)
-      <a href="https://docs.google.com/presentation/d/1-ENL6onFRHKqDHCUKNXlLolEbJcNCVOz/edit?usp=sharing&ouid=102111505572083680768&rtpof=true&sd=true" target="_blank">here</a>.
-      A small tech and artistic demo featuring shaders and models I made is playable
-      <a href="https://drive.google.com/file/d/1MPzDRDLOwN41jAmK1KjBRyN3hlJGft2T/view" target="_blank">there</a>.
-      <br/>A prototype featuring Chapter 1 content with two playable characters and a combat system is coming soon.
-    </div>
-    <div class="paragraph">
-      My contributions so far:
-      <ul>
-        <li>Character mechanics and core gameplay design</li>
-        <li>Gameplay code using the Gameplay Ability System</li>
-        <li>A custom Combo System (demo video <a href="https://drive.google.com/file/d/1bE6kQF5ecmhwaUCvUemEUr-mhpwisHsp/view?usp=sharing" target="_blank">here</a>)</li>
-        <li>Beginning AI behaviour code</li>
-        <li>Narrative research and dialogue writing</li>
-        <li>2D character concepts</li>
-        <li>Learning 2D environment concept art with <a href="https://linktr.ee/Scrapmagus" target="_blank">Pedroscrap</a></li>
-        <li>3D character and asset modelling</li>
-        <li>Facial animation research</li>
-        <li>Art style research and cell shading</li>
-        <li>Level and map design</li>
-        <li>SFX and music style research with <a href="https://soundcloud.com/legend-urbaine" target="_blank">Légende_Urbaine</a> and <a href="https://www.youtube.com/channel/UCOGuXm5AYtvF5hTHoUyUZ-A" target="_blank">Pulsial</a></li>
-      </ul>
-    </div>
-    <div class="paragraph center">
-      <img class="game-screenshot" src="img/projects/project-IE-A.png" alt="Concept Art" />
-      <img class="game-screenshot" src="img/projects/project-IE-B.png" alt="Character Design WIP 1" />
-      <img class="game-screenshot" src="img/projects/project-IE-C.png" alt="Character Design WIP 2" />
-      <img class="game-screenshot" src="img/projects/project-IE-D.png" alt="Infiltration" />
-      <img class="game-screenshot" src="img/projects/project-IE-E.png" alt="Combo Together" />
-      <img class="game-screenshot" src="img/projects/project-IE-F.png" alt="Sneaking Together" />
-      <img class="game-screenshot" src="img/projects/project-IE-G.png" alt="Fabien smile 1" />
-      <img class="game-screenshot" src="img/projects/project-IE-H.png" alt="Fabien smile 2" />
-    </div>`,"#23bd69",!1,!1,`<div class="paragraph">
-      <strong>Influunt Entis</strong> est un projet d'ARPG top-down mêlant des éléments de stealth.
-      <br/>S'appuyant sur une histoire mûrie pendant quatre ans, son développement a débuté en janvier 2022.
-      <br/>En mars 2023, j'ai commencé un prototype sous Unity, puis l'ai transféré sur Unreal Engine
-      après avoir découvert les avantages de son système Post Process et de GAS (Gameplay Ability System).
-      <br/>En mars 2024, le projet a pris de l'ampleur lorsque quatre amis m'ont rejoint pour former une équipe.
-    </div>
-    <div class="paragraph center">
-      Vous pouvez lire le Game Design Document (en français)
-      <a href="https://docs.google.com/presentation/d/1-ENL6onFRHKqDHCUKNXlLolEbJcNCVOz/edit?usp=sharing&ouid=102111505572083680768&rtpof=true&sd=true" target="_blank">ici</a>.
-      Une petite démo technique et artistique présentant des shaders et modèles que j'ai réalisés est jouable
-      <a href="https://drive.google.com/file/d/1MPzDRDLOwN41jAmK1KjBRyN3hlJGft2T/view" target="_blank">là</a>.
-      <br/>Un prototype du Chapitre 1 avec deux personnages jouables et un système de combat arrive prochainement.
-    </div>
-    <div class="paragraph">
-      Mes contributions à ce jour :
-      <ul>
-        <li>Mécaniques du personnage et gameplay design principal</li>
-        <li>Code de gameplay avec le Gameplay Ability System</li>
-        <li>Un Système de Combos personnalisé (vidéo démo <a href="https://drive.google.com/file/d/1bE6kQF5ecmhwaUCvUemEUr-mhpwisHsp/view?usp=sharing" target="_blank">ici</a>)</li>
-        <li>Début du code IA</li>
-        <li>Recherche narrative et écriture des dialogues</li>
-        <li>Concepts 2D des personnages</li>
-        <li>Apprentissage du concept art d'environnement 2D avec <a href="https://linktr.ee/Scrapmagus" target="_blank">Pedroscrap</a></li>
-        <li>Modélisation 3D des personnages et assets</li>
-        <li>Recherche sur les animations faciales</li>
-        <li>Recherche de style artistique et cell shading</li>
-        <li>Level design et design de map</li>
-        <li>Recherche SFX et musicale avec <a href="https://soundcloud.com/legend-urbaine" target="_blank">Légende_Urbaine</a> et <a href="https://www.youtube.com/channel/UCOGuXm5AYtvF5hTHoUyUZ-A" target="_blank">Pulsial</a></li>
-      </ul>
-    </div>
-    <div class="paragraph center">
-      <img class="game-screenshot" src="img/projects/project-IE-A.png" alt="Concept Art" />
-      <img class="game-screenshot" src="img/projects/project-IE-B.png" alt="Chara Design WIP 1" />
-      <img class="game-screenshot" src="img/projects/project-IE-C.png" alt="Chara Design WIP 2" />
-      <img class="game-screenshot" src="img/projects/project-IE-D.png" alt="Infiltration" />
-      <img class="game-screenshot" src="img/projects/project-IE-E.png" alt="Combo" />
-      <img class="game-screenshot" src="img/projects/project-IE-F.png" alt="Discrétion" />
-      <img class="game-screenshot" src="img/projects/project-IE-G.png" alt="Fabien sourire 1" />
-      <img class="game-screenshot" src="img/projects/project-IE-H.png" alt="Fabien sourire 2" />
     </div>`),new e("project-2","Freezy Time Slider","img/projects/project-2-icon.png",`<div class="paragraph">
       <strong>Freezy Time Slider</strong> is a mobile top-down puzzle game made with Unreal Engine 5 during my year at UQAC.
       <br/>Conceived by a six-member team around the theme of Time, the game was designed from November 2022 over a month and a half,
