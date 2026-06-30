@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-Dqhj9HXv.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-xWz-aT3a.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-DvobYivY.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-BWfTML9x.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
       <em>"The horizon shimmers with a pure blue. Between the undertow of data waves and the hum of a sleeping processor, a structure of chrome awaits..."</em>
     </div>
     <div class="paragraph">
@@ -54,6 +54,52 @@ import{P as e,a as t}from"./ProjectData-Dqhj9HXv.js";import{i as n,_ as o,e as l
     <div class="paragraph center">
       <img class="game-screenshot" src="img/projects/project-OO-A.png" alt="Overdrive Oasis — Jet-ski" />
       <img class="game-screenshot" src="img/projects/project-OO-B.png" alt="Overdrive Oasis — Ring Portal" />
+    </div>`),new e("project-MBRK","MasterBreakout","img/projects/project-MBRK-ico.png",`<div class="paragraph">
+      <strong>MasterBreakout</strong> is a brick breaker built with Unreal Engine 5, with a rendering style inspired by the visual techniques of Nintendo 64-era games.
+      <br/>Originally created as a Master's assignment, I heavily reworked and expanded it starting in June 2026 to turn it into a personal learning exercise and a practical example for other students, friends, or relatives who want to get started with the engine.
+      <br/>Later that same month, the current build was installed as a playable game on UQAC's arcade cabinet.
+    </div>
+    <div class="paragraph">
+      My contributions:
+      <ul>
+        <li>Solo project — all gameplay, implementation, and overall production</li>
+        <li>All 3D models created from scratch</li>
+        <li>Sound effects fully created and integrated by me</li>
+        <li>Skyboxes modified in GIMP</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Special thanks:
+      <ul>
+        <li><a href="https://sawteeth.bandcamp.com/" target="_blank">Sawteeth</a> and <a href="https://soundcloud.com/mil3sperhour" target="_blank">Mil3sperhour</a> for allowing me to use and showcase their music</li>
+        <li><a href="https://www.linkedin.com/in/tom-douaud-a19811273/" target="_blank">Tom D.</a> for making it possible to bring the current build to the UQAC arcade cabinet</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1g605FaycwHFuJmMKFLqVDRpvHx7GNsXK/view?usp=drive_link" target="_blank">▶ Download the current build</a>
+    </div>`,"#2d8f68",!1,!1,`<div class="paragraph">
+      <strong>MasterBreakout</strong> est un casse-brique réalisé avec Unreal Engine 5, avec une technique de rendu inspirée de l'esthétique des jeux Nintendo 64.
+      <br/>Au départ simple devoir de Maîtrise, je l'ai grandement repris dès juin 2026 pour en faire à la fois un exercice personnel et un support d'apprentissage concret pour d'autres élèves, amis ou proches souhaitant se lancer sur le moteur.
+      <br/>Plus tard dans le même mois, la build courante a aussi été installée comme jeu jouable sur la borne d'arcade de l'UQAC.
+    </div>
+    <div class="paragraph">
+      Mes contributions :
+      <ul>
+        <li>Projet solo — tout le gameplay, l'implémentation et la production générale</li>
+        <li>Tous les modèles 3D créés de A à Z</li>
+        <li>Tous les sound effects créés et intégrés par moi-même</li>
+        <li>Skyboxes modifiées sur GIMP</li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      Remerciements :
+      <ul>
+        <li><a href="https://sawteeth.bandcamp.com/" target="_blank">Sawteeth</a> et <a href="https://soundcloud.com/mil3sperhour" target="_blank">Mil3sperhour</a> pour m'avoir autorisé à utiliser et showcase leurs musiques</li>
+        <li><a href="https://www.linkedin.com/in/tom-douaud-a19811273/" target="_blank">Tom D.</a> pour avoir permis d'amener la build courante sur la borne d'arcade de l'UQAC</li>
+      </ul>
+    </div>
+    <div class="paragraph center">
+      <a href="https://drive.google.com/file/d/1g605FaycwHFuJmMKFLqVDRpvHx7GNsXK/view?usp=drive_link" target="_blank">▶ Télécharger la build courante</a>
     </div>`),new e("project-DFBT","Death Fel' Ball Tournament","img/projects/project-DFBT-icon.png",`<div class="paragraph">
       <strong>Death Fel' Ball Tournament</strong> is an ultra-fast-paced 2.5D fighting-sports game built with Unreal Engine 5, created during the Montreal Game Jam (May 2026) in 48 hours.
       <br/>In a post-apocalyptic world, the most formidable feline warriors clash 1v1 in a tournament to the death — or rather, to nine deaths. Their weapon: a kinetic ball that bounces and accelerates exponentially with every hit.
