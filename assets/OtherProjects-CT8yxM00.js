@@ -1,4 +1,4 @@
-import{P as e,a as i}from"./ProjectData-DvobYivY.js";import{i as o,_ as n,e as l,a as t,t as r,h as p,s as d,p as c}from"./index-BWfTML9x.js";const u=[new e("project-WAT","Water Shaders","img/projects/project-WAT-icon.png",`<div class="paragraph">
+import{P as e,a as i}from"./ProjectData-C44lZ9Ys.js";import{i as o,_ as n,e as l,a as t,t as r,h as p,s as d,p as c}from"./index-CfQXygeU.js";const u=[new e("project-WAT","Water Shaders","img/projects/project-WAT-icon.png",`<div class="paragraph">
       This small Unreal Engine 5 project contains <strong>water shaders</strong> I created during my free time in March 2024.
     </div>
     <div class="paragraph center">

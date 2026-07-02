@@ -1,4 +1,4 @@
-import{P as e,a as t}from"./ProjectData-DvobYivY.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-BWfTML9x.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
+import{P as e,a as t}from"./ProjectData-C44lZ9Ys.js";import{i as n,_ as o,e as l,a as r,t as s,h as c,s as p,p as g}from"./index-CfQXygeU.js";const u=[new e("project-OO","Overdrive Oasis","img/projects/project-OO-icon.png",`<div class="paragraph">
       <em>"The horizon shimmers with a pure blue. Between the undertow of data waves and the hum of a sleeping processor, a structure of chrome awaits..."</em>
     </div>
     <div class="paragraph">
@@ -76,7 +76,7 @@ import{P as e,a as t}from"./ProjectData-DvobYivY.js";import{i as n,_ as o,e as l
       </ul>
     </div>
     <div class="paragraph center">
-      <a href="https://drive.google.com/file/d/1g605FaycwHFuJmMKFLqVDRpvHx7GNsXK/view?usp=drive_link" target="_blank">▶ Download the current build</a>
+      <a href="https://drive.google.com/file/d/10jvW5yxcplZ-9kbZ_QUM23zmL2D54F8I/view?usp=sharing" target="_blank">▶ Download the current build</a>
     </div>`,"#2d8f68",!1,!1,`<div class="paragraph">
       <strong>MasterBreakout</strong> est un casse-brique réalisé avec Unreal Engine 5, avec une technique de rendu inspirée de l'esthétique des jeux Nintendo 64.
       <br/>Au départ simple devoir de Maîtrise, je l'ai grandement repris dès juin 2026 pour en faire à la fois un exercice personnel et un support d'apprentissage concret pour d'autres élèves, amis ou proches souhaitant se lancer sur le moteur.
@@ -99,7 +99,7 @@ import{P as e,a as t}from"./ProjectData-DvobYivY.js";import{i as n,_ as o,e as l
       </ul>
     </div>
     <div class="paragraph center">
-      <a href="https://drive.google.com/file/d/1g605FaycwHFuJmMKFLqVDRpvHx7GNsXK/view?usp=drive_link" target="_blank">▶ Télécharger la build courante</a>
+      <a href="https://drive.google.com/file/d/10jvW5yxcplZ-9kbZ_QUM23zmL2D54F8I/view?usp=sharing" target="_blank">▶ Télécharger la build courante</a>
     </div>`),new e("project-DFBT","Death Fel' Ball Tournament","img/projects/project-DFBT-icon.png",`<div class="paragraph">
       <strong>Death Fel' Ball Tournament</strong> is an ultra-fast-paced 2.5D fighting-sports game built with Unreal Engine 5, created during the Montreal Game Jam (May 2026) in 48 hours.
       <br/>In a post-apocalyptic world, the most formidable feline warriors clash 1v1 in a tournament to the death — or rather, to nine deaths. Their weapon: a kinetic ball that bounces and accelerates exponentially with every hit.
