@@ -87,7 +87,7 @@ export default [
       </ul>
     </div>
     <div class="paragraph center">
-      <a href="https://drive.google.com/file/d/1g605FaycwHFuJmMKFLqVDRpvHx7GNsXK/view?usp=drive_link" target="_blank">▶ Download the current build</a>
+      <a href="https://drive.google.com/file/d/10jvW5yxcplZ-9kbZ_QUM23zmL2D54F8I/view?usp=sharing" target="_blank">▶ Download the current build</a>
     </div>`,
     "#2d8f68", false, false,
     `<div class="paragraph">
@@ -112,7 +112,7 @@ export default [
       </ul>
     </div>
     <div class="paragraph center">
-      <a href="https://drive.google.com/file/d/1g605FaycwHFuJmMKFLqVDRpvHx7GNsXK/view?usp=drive_link" target="_blank">▶ Télécharger la build courante</a>
+      <a href="https://drive.google.com/file/d/10jvW5yxcplZ-9kbZ_QUM23zmL2D54F8I/view?usp=sharing" target="_blank">▶ Télécharger la build courante</a>
     </div>`
   ),
   new ProjectData(
